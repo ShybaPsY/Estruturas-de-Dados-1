@@ -7,8 +7,8 @@ struct TpPilha{
 
 void inicializar(TpPilha &p);
 void inserir(TpPilha &p, int aux);
-char pilhaCheia(int topo);
-char pilhaVazia(int topo);
+bool pilhaCheia(int topo);
+bool pilhaVazia(int topo);
 int retirar(TpPilha &p);
 void exibir(TpPilha p);
 void esvaziar(TpPilha &p);
@@ -22,11 +22,11 @@ void inserir(TpPilha &p, int aux){
 	p.pilha[++p.topo] = aux;
 }
 
-char pilhaCheia(int topo){
+bool pilhaCheia(int topo){
 	return topo == MAXPILHA-1;
 }
 
-char pilhaVazia(int topo){
+bool pilhaVazia(int topo){
 	return topo == -1;
 }
 
@@ -36,13 +36,15 @@ int retirar(TpPilha &p){
 
 void exibir(TpPilha p){
 	while(!pilhaVazia(p.topo)){
-		printf("\nPosicao %d: %d", p.topo, retirar(p));
+		printf("\nPosicao %d: ", p.topo);
+		printf("%d",retirar(p));
 	}
 }
 
 void esvaziar(TpPilha &p){
 	while(!pilhaVazia(p.topo)){
-		printf("\nPosicao %d: %d", p.topo, retirar(p));
+		printf("\nPosicao %d: ", p.topo);
+		printf("%d", retirar(p));
 	}
 }
 

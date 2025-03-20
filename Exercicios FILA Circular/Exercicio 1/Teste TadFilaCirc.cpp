@@ -7,37 +7,39 @@
 #include <time.h>
 #include <direct.h>
 #include <conio.h>
-#include "TadPilha.h"
+#include "TadFilaCirc.h"
 
 int main(){
-	TpPilha p;
+	TpFilaCirc f;
 	int valor, op;
-	inicializar(p);
+	inicializar(f);
 	srand(time(0));
 	
 	do{
 		valor = rand()%99+1;
 		op =rand()%2;
 		if(op == 1){
-			if(!pilhaCheia(p.topo)){
+			if(!filaCheia(f.qtde)){
 				printf("\nInserido: %d", valor);
-				inserir(p, valor);
+				inserir(f, valor);
 			}
 		}
 		else{
-			if(!pilhaVazia(p.topo)){
-				printf("\nRetirado: %d", retirar(p));
+			if(!filaVazia(f.qtde)){
+				printf("\nRetirado: %d", retirar(f));
 			}
 		}
 	}while(!kbhit());
 	getch();
 	printf("\n\n");
-	exibir(p);
+	exibir(f);
 	getch();
 	printf("\n\n");
-	esvaziar(p);
+	esvaziar(f);
 	getch();
 	printf("\n\n");
+	exibir(f);
+	getch();
 	return 0;
 }
 
