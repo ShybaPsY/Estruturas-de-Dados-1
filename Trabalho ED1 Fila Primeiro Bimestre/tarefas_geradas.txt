@@ -1,0 +1,1001 @@
+Tipo,TempoConclusao,DescricaoTarefa
+Opcional,50,Montar kit educacional
+Urgente,25,Revisar sistema de controle
+Normal,18,Treinar equipe em nova tecnologia
+Normal,20,Revisar sistema de controle
+Normal,10,Reparar esteira transportadora
+Urgente,40,Reparar esteira transportadora
+Normal,15,Verificar estoque de matéria-prima
+Opcional,50,Verificar estoque de matéria-prima
+Normal,10,Treinar equipe em nova tecnologia
+Urgente,35,Treinar equipe em nova tecnologia
+Opcional,30,Verificar estoque de matéria-prima
+Urgente,40,Atualizar software da linha de produção
+Urgente,40,Reparar esteira transportadora
+Normal,25,Atualizar software da linha de produção
+Opcional,50,Pintura de peças metálicas
+Urgente,30,Substituir componentes defeituosos
+Normal,18,Montar kit educacional
+Normal,25,Manutenção preventiva no motor
+Normal,25,Revisar sistema de controle
+Normal,20,Montar kit educacional
+Opcional,60,Treinar equipe em nova tecnologia
+Opcional,30,Pintura de peças metálicas
+Normal,18,Treinar equipe em nova tecnologia
+Normal,15,Pintura de peças metálicas
+Opcional,45,Montar kit educacional
+Opcional,60,Reparar esteira transportadora
+Opcional,50,Revisar sistema de controle
+Normal,15,Treinar equipe em nova tecnologia
+Urgente,40,Treinar equipe em nova tecnologia
+Opcional,50,Montar kit educacional
+Opcional,50,Atualizar software da linha de produção
+Urgente,20,Revisar sistema de controle
+Urgente,25,Atualizar software da linha de produção
+Opcional,50,Pintura de peças metálicas
+Urgente,35,Revisar sistema de controle
+Opcional,50,Pintura de peças metálicas
+Normal,15,Reparar esteira transportadora
+Opcional,60,Reparar esteira transportadora
+Opcional,50,Otimizar fluxo de montagem
+Normal,15,Atualizar software da linha de produção
+Opcional,45,Revisar sistema de controle
+Opcional,60,Revisar sistema de controle
+Urgente,35,Revisar sistema de controle
+Opcional,50,Revisar sistema de controle
+Opcional,70,Otimizar fluxo de montagem
+Urgente,35,Substituir componentes defeituosos
+Urgente,20,Substituir componentes defeituosos
+Opcional,70,Pintura de peças metálicas
+Opcional,50,Revisar sistema de controle
+Opcional,45,Revisar sistema de controle
+Urgente,35,Treinar equipe em nova tecnologia
+Urgente,25,Atualizar software da linha de produção
+Normal,10,Pintura de peças metálicas
+Opcional,45,Reparar esteira transportadora
+Opcional,30,Manutenção preventiva no motor
+Normal,10,Atualizar software da linha de produção
+Opcional,60,Substituir componentes defeituosos
+Normal,15,Atualizar software da linha de produção
+Urgente,30,Substituir componentes defeituosos
+Normal,15,Reparar esteira transportadora
+Urgente,35,Montar kit educacional
+Opcional,60,Pintura de peças metálicas
+Opcional,30,Verificar estoque de matéria-prima
+Urgente,40,Treinar equipe em nova tecnologia
+Urgente,30,Otimizar fluxo de montagem
+Normal,18,Treinar equipe em nova tecnologia
+Normal,15,Pintura de peças metálicas
+Opcional,45,Atualizar software da linha de produção
+Opcional,45,Montar kit educacional
+Normal,15,Substituir componentes defeituosos
+Normal,20,Verificar estoque de matéria-prima
+Opcional,70,Manutenção preventiva no motor
+Opcional,45,Substituir componentes defeituosos
+Opcional,50,Montar kit educacional
+Urgente,25,Treinar equipe em nova tecnologia
+Opcional,30,Reparar esteira transportadora
+Normal,10,Pintura de peças metálicas
+Opcional,45,Verificar estoque de matéria-prima
+Normal,15,Verificar estoque de matéria-prima
+Normal,25,Verificar estoque de matéria-prima
+Opcional,30,Substituir componentes defeituosos
+Urgente,25,Montar kit educacional
+Opcional,70,Manutenção preventiva no motor
+Opcional,50,Atualizar software da linha de produção
+Normal,18,Pintura de peças metálicas
+Normal,15,Reparar esteira transportadora
+Normal,20,Atualizar software da linha de produção
+Urgente,30,Manutenção preventiva no motor
+Urgente,20,Otimizar fluxo de montagem
+Opcional,50,Montar kit educacional
+Opcional,30,Reparar esteira transportadora
+Urgente,20,Otimizar fluxo de montagem
+Normal,10,Substituir componentes defeituosos
+Urgente,30,Pintura de peças metálicas
+Opcional,70,Verificar estoque de matéria-prima
+Urgente,20,Otimizar fluxo de montagem
+Urgente,30,Reparar esteira transportadora
+Opcional,70,Reparar esteira transportadora
+Opcional,50,Pintura de peças metálicas
+Urgente,35,Substituir componentes defeituosos
+Normal,10,Atualizar software da linha de produção
+Normal,25,Substituir componentes defeituosos
+Normal,10,Treinar equipe em nova tecnologia
+Urgente,40,Reparar esteira transportadora
+Urgente,40,Reparar esteira transportadora
+Opcional,45,Substituir componentes defeituosos
+Normal,20,Verificar estoque de matéria-prima
+Urgente,20,Otimizar fluxo de montagem
+Urgente,20,Treinar equipe em nova tecnologia
+Opcional,70,Manutenção preventiva no motor
+Normal,25,Otimizar fluxo de montagem
+Urgente,25,Verificar estoque de matéria-prima
+Opcional,50,Montar kit educacional
+Opcional,70,Pintura de peças metálicas
+Opcional,50,Reparar esteira transportadora
+Opcional,45,Otimizar fluxo de montagem
+Urgente,20,Atualizar software da linha de produção
+Urgente,20,Otimizar fluxo de montagem
+Urgente,20,Verificar estoque de matéria-prima
+Opcional,30,Revisar sistema de controle
+Normal,18,Manutenção preventiva no motor
+Opcional,30,Reparar esteira transportadora
+Normal,25,Revisar sistema de controle
+Normal,20,Treinar equipe em nova tecnologia
+Urgente,30,Atualizar software da linha de produção
+Normal,20,Verificar estoque de matéria-prima
+Urgente,40,Atualizar software da linha de produção
+Urgente,30,Atualizar software da linha de produção
+Normal,10,Montar kit educacional
+Urgente,30,Treinar equipe em nova tecnologia
+Urgente,35,Otimizar fluxo de montagem
+Opcional,50,Atualizar software da linha de produção
+Normal,20,Revisar sistema de controle
+Urgente,30,Substituir componentes defeituosos
+Opcional,70,Pintura de peças metálicas
+Opcional,45,Manutenção preventiva no motor
+Opcional,50,Pintura de peças metálicas
+Opcional,30,Reparar esteira transportadora
+Normal,10,Substituir componentes defeituosos
+Normal,20,Revisar sistema de controle
+Urgente,30,Treinar equipe em nova tecnologia
+Urgente,25,Verificar estoque de matéria-prima
+Urgente,40,Otimizar fluxo de montagem
+Normal,10,Pintura de peças metálicas
+Normal,25,Manutenção preventiva no motor
+Urgente,40,Montar kit educacional
+Opcional,50,Revisar sistema de controle
+Urgente,25,Otimizar fluxo de montagem
+Normal,20,Verificar estoque de matéria-prima
+Opcional,60,Verificar estoque de matéria-prima
+Urgente,40,Substituir componentes defeituosos
+Opcional,45,Atualizar software da linha de produção
+Urgente,30,Atualizar software da linha de produção
+Normal,25,Manutenção preventiva no motor
+Opcional,30,Treinar equipe em nova tecnologia
+Normal,18,Montar kit educacional
+Opcional,50,Otimizar fluxo de montagem
+Opcional,45,Substituir componentes defeituosos
+Normal,15,Verificar estoque de matéria-prima
+Normal,20,Substituir componentes defeituosos
+Normal,25,Otimizar fluxo de montagem
+Opcional,30,Montar kit educacional
+Normal,15,Verificar estoque de matéria-prima
+Opcional,60,Treinar equipe em nova tecnologia
+Opcional,50,Atualizar software da linha de produção
+Opcional,45,Montar kit educacional
+Opcional,45,Treinar equipe em nova tecnologia
+Normal,10,Otimizar fluxo de montagem
+Normal,18,Pintura de peças metálicas
+Urgente,20,Manutenção preventiva no motor
+Opcional,60,Manutenção preventiva no motor
+Urgente,25,Reparar esteira transportadora
+Urgente,35,Reparar esteira transportadora
+Opcional,30,Substituir componentes defeituosos
+Normal,18,Atualizar software da linha de produção
+Normal,15,Verificar estoque de matéria-prima
+Urgente,40,Revisar sistema de controle
+Opcional,60,Atualizar software da linha de produção
+Urgente,30,Verificar estoque de matéria-prima
+Urgente,35,Otimizar fluxo de montagem
+Normal,25,Revisar sistema de controle
+Urgente,40,Manutenção preventiva no motor
+Normal,15,Treinar equipe em nova tecnologia
+Normal,10,Montar kit educacional
+Urgente,20,Otimizar fluxo de montagem
+Normal,20,Treinar equipe em nova tecnologia
+Opcional,50,Montar kit educacional
+Normal,10,Pintura de peças metálicas
+Opcional,70,Pintura de peças metálicas
+Opcional,70,Otimizar fluxo de montagem
+Urgente,30,Treinar equipe em nova tecnologia
+Normal,15,Substituir componentes defeituosos
+Normal,20,Pintura de peças metálicas
+Urgente,35,Verificar estoque de matéria-prima
+Urgente,30,Reparar esteira transportadora
+Opcional,50,Treinar equipe em nova tecnologia
+Normal,25,Atualizar software da linha de produção
+Urgente,40,Revisar sistema de controle
+Urgente,20,Treinar equipe em nova tecnologia
+Urgente,40,Treinar equipe em nova tecnologia
+Normal,15,Revisar sistema de controle
+Normal,15,Manutenção preventiva no motor
+Normal,10,Pintura de peças metálicas
+Normal,20,Otimizar fluxo de montagem
+Urgente,20,Verificar estoque de matéria-prima
+Opcional,60,Treinar equipe em nova tecnologia
+Normal,15,Pintura de peças metálicas
+Urgente,40,Verificar estoque de matéria-prima
+Urgente,20,Substituir componentes defeituosos
+Normal,20,Montar kit educacional
+Normal,10,Atualizar software da linha de produção
+Normal,15,Revisar sistema de controle
+Urgente,40,Pintura de peças metálicas
+Normal,18,Atualizar software da linha de produção
+Urgente,25,Otimizar fluxo de montagem
+Urgente,35,Otimizar fluxo de montagem
+Normal,10,Revisar sistema de controle
+Normal,15,Manutenção preventiva no motor
+Urgente,35,Pintura de peças metálicas
+Normal,20,Atualizar software da linha de produção
+Urgente,35,Treinar equipe em nova tecnologia
+Opcional,30,Manutenção preventiva no motor
+Opcional,60,Atualizar software da linha de produção
+Opcional,70,Pintura de peças metálicas
+Urgente,30,Verificar estoque de matéria-prima
+Normal,20,Manutenção preventiva no motor
+Opcional,30,Reparar esteira transportadora
+Urgente,35,Substituir componentes defeituosos
+Normal,15,Atualizar software da linha de produção
+Urgente,30,Treinar equipe em nova tecnologia
+Urgente,30,Manutenção preventiva no motor
+Normal,20,Otimizar fluxo de montagem
+Normal,20,Revisar sistema de controle
+Opcional,50,Revisar sistema de controle
+Normal,10,Reparar esteira transportadora
+Normal,15,Reparar esteira transportadora
+Opcional,70,Manutenção preventiva no motor
+Normal,10,Revisar sistema de controle
+Opcional,70,Substituir componentes defeituosos
+Normal,25,Verificar estoque de matéria-prima
+Urgente,40,Revisar sistema de controle
+Opcional,60,Manutenção preventiva no motor
+Opcional,70,Otimizar fluxo de montagem
+Urgente,30,Otimizar fluxo de montagem
+Opcional,30,Pintura de peças metálicas
+Urgente,40,Treinar equipe em nova tecnologia
+Opcional,50,Atualizar software da linha de produção
+Opcional,70,Pintura de peças metálicas
+Urgente,35,Montar kit educacional
+Normal,10,Treinar equipe em nova tecnologia
+Opcional,60,Pintura de peças metálicas
+Opcional,60,Substituir componentes defeituosos
+Normal,15,Pintura de peças metálicas
+Normal,18,Treinar equipe em nova tecnologia
+Urgente,20,Pintura de peças metálicas
+Normal,18,Otimizar fluxo de montagem
+Opcional,50,Pintura de peças metálicas
+Normal,20,Otimizar fluxo de montagem
+Urgente,25,Pintura de peças metálicas
+Urgente,35,Reparar esteira transportadora
+Normal,20,Verificar estoque de matéria-prima
+Normal,20,Montar kit educacional
+Urgente,25,Substituir componentes defeituosos
+Urgente,20,Verificar estoque de matéria-prima
+Opcional,30,Pintura de peças metálicas
+Urgente,35,Pintura de peças metálicas
+Normal,10,Otimizar fluxo de montagem
+Opcional,70,Otimizar fluxo de montagem
+Normal,15,Substituir componentes defeituosos
+Opcional,45,Atualizar software da linha de produção
+Normal,18,Otimizar fluxo de montagem
+Normal,18,Otimizar fluxo de montagem
+Opcional,60,Substituir componentes defeituosos
+Opcional,30,Treinar equipe em nova tecnologia
+Normal,20,Manutenção preventiva no motor
+Opcional,50,Montar kit educacional
+Urgente,25,Pintura de peças metálicas
+Opcional,45,Treinar equipe em nova tecnologia
+Urgente,20,Verificar estoque de matéria-prima
+Urgente,30,Revisar sistema de controle
+Urgente,25,Revisar sistema de controle
+Urgente,35,Revisar sistema de controle
+Urgente,25,Atualizar software da linha de produção
+Normal,18,Revisar sistema de controle
+Opcional,50,Atualizar software da linha de produção
+Opcional,45,Otimizar fluxo de montagem
+Normal,10,Substituir componentes defeituosos
+Urgente,25,Manutenção preventiva no motor
+Opcional,30,Atualizar software da linha de produção
+Urgente,20,Otimizar fluxo de montagem
+Urgente,30,Pintura de peças metálicas
+Opcional,45,Treinar equipe em nova tecnologia
+Urgente,20,Manutenção preventiva no motor
+Opcional,30,Pintura de peças metálicas
+Normal,25,Reparar esteira transportadora
+Opcional,70,Atualizar software da linha de produção
+Normal,25,Substituir componentes defeituosos
+Opcional,50,Montar kit educacional
+Normal,25,Atualizar software da linha de produção
+Opcional,30,Atualizar software da linha de produção
+Opcional,60,Pintura de peças metálicas
+Opcional,70,Substituir componentes defeituosos
+Normal,18,Pintura de peças metálicas
+Normal,18,Revisar sistema de controle
+Urgente,25,Substituir componentes defeituosos
+Urgente,35,Manutenção preventiva no motor
+Urgente,40,Pintura de peças metálicas
+Urgente,30,Manutenção preventiva no motor
+Opcional,70,Atualizar software da linha de produção
+Opcional,70,Otimizar fluxo de montagem
+Opcional,50,Pintura de peças metálicas
+Opcional,45,Otimizar fluxo de montagem
+Normal,10,Revisar sistema de controle
+Opcional,50,Verificar estoque de matéria-prima
+Urgente,35,Reparar esteira transportadora
+Opcional,50,Otimizar fluxo de montagem
+Normal,18,Revisar sistema de controle
+Normal,15,Reparar esteira transportadora
+Normal,25,Atualizar software da linha de produção
+Urgente,30,Atualizar software da linha de produção
+Normal,18,Substituir componentes defeituosos
+Urgente,35,Montar kit educacional
+Urgente,30,Substituir componentes defeituosos
+Urgente,30,Substituir componentes defeituosos
+Opcional,70,Atualizar software da linha de produção
+Normal,18,Reparar esteira transportadora
+Normal,20,Atualizar software da linha de produção
+Urgente,25,Pintura de peças metálicas
+Urgente,30,Otimizar fluxo de montagem
+Urgente,25,Treinar equipe em nova tecnologia
+Opcional,70,Verificar estoque de matéria-prima
+Urgente,30,Montar kit educacional
+Urgente,20,Reparar esteira transportadora
+Normal,15,Montar kit educacional
+Urgente,20,Manutenção preventiva no motor
+Normal,10,Montar kit educacional
+Urgente,35,Otimizar fluxo de montagem
+Urgente,25,Montar kit educacional
+Urgente,25,Manutenção preventiva no motor
+Normal,25,Otimizar fluxo de montagem
+Urgente,35,Revisar sistema de controle
+Opcional,50,Otimizar fluxo de montagem
+Opcional,50,Otimizar fluxo de montagem
+Normal,20,Revisar sistema de controle
+Urgente,35,Treinar equipe em nova tecnologia
+Opcional,45,Reparar esteira transportadora
+Urgente,35,Pintura de peças metálicas
+Urgente,20,Revisar sistema de controle
+Normal,18,Revisar sistema de controle
+Opcional,50,Reparar esteira transportadora
+Opcional,50,Reparar esteira transportadora
+Opcional,30,Otimizar fluxo de montagem
+Opcional,30,Revisar sistema de controle
+Normal,15,Revisar sistema de controle
+Normal,18,Revisar sistema de controle
+Opcional,30,Pintura de peças metálicas
+Normal,15,Montar kit educacional
+Opcional,70,Atualizar software da linha de produção
+Urgente,35,Otimizar fluxo de montagem
+Normal,18,Pintura de peças metálicas
+Urgente,35,Substituir componentes defeituosos
+Opcional,60,Pintura de peças metálicas
+Opcional,70,Treinar equipe em nova tecnologia
+Opcional,60,Manutenção preventiva no motor
+Urgente,40,Atualizar software da linha de produção
+Normal,15,Reparar esteira transportadora
+Opcional,70,Reparar esteira transportadora
+Opcional,45,Revisar sistema de controle
+Opcional,30,Substituir componentes defeituosos
+Normal,10,Treinar equipe em nova tecnologia
+Normal,18,Substituir componentes defeituosos
+Normal,18,Substituir componentes defeituosos
+Normal,10,Pintura de peças metálicas
+Opcional,70,Treinar equipe em nova tecnologia
+Opcional,70,Reparar esteira transportadora
+Opcional,70,Substituir componentes defeituosos
+Urgente,30,Treinar equipe em nova tecnologia
+Opcional,50,Reparar esteira transportadora
+Urgente,30,Treinar equipe em nova tecnologia
+Opcional,30,Atualizar software da linha de produção
+Normal,10,Pintura de peças metálicas
+Normal,20,Reparar esteira transportadora
+Opcional,70,Atualizar software da linha de produção
+Normal,10,Verificar estoque de matéria-prima
+Opcional,50,Verificar estoque de matéria-prima
+Opcional,30,Montar kit educacional
+Normal,25,Atualizar software da linha de produção
+Normal,20,Montar kit educacional
+Urgente,25,Atualizar software da linha de produção
+Urgente,30,Substituir componentes defeituosos
+Urgente,35,Verificar estoque de matéria-prima
+Normal,25,Reparar esteira transportadora
+Opcional,50,Reparar esteira transportadora
+Urgente,30,Montar kit educacional
+Normal,10,Verificar estoque de matéria-prima
+Opcional,30,Manutenção preventiva no motor
+Opcional,70,Treinar equipe em nova tecnologia
+Urgente,25,Treinar equipe em nova tecnologia
+Normal,10,Atualizar software da linha de produção
+Opcional,60,Treinar equipe em nova tecnologia
+Opcional,45,Montar kit educacional
+Urgente,40,Pintura de peças metálicas
+Normal,20,Pintura de peças metálicas
+Opcional,70,Montar kit educacional
+Opcional,70,Reparar esteira transportadora
+Normal,15,Pintura de peças metálicas
+Normal,15,Otimizar fluxo de montagem
+Normal,18,Pintura de peças metálicas
+Urgente,20,Revisar sistema de controle
+Urgente,20,Verificar estoque de matéria-prima
+Normal,10,Pintura de peças metálicas
+Opcional,45,Verificar estoque de matéria-prima
+Normal,25,Verificar estoque de matéria-prima
+Opcional,45,Substituir componentes defeituosos
+Normal,20,Pintura de peças metálicas
+Urgente,30,Treinar equipe em nova tecnologia
+Opcional,30,Revisar sistema de controle
+Urgente,40,Reparar esteira transportadora
+Opcional,45,Montar kit educacional
+Urgente,25,Pintura de peças metálicas
+Normal,20,Manutenção preventiva no motor
+Urgente,30,Otimizar fluxo de montagem
+Urgente,30,Substituir componentes defeituosos
+Normal,20,Reparar esteira transportadora
+Urgente,30,Manutenção preventiva no motor
+Urgente,40,Otimizar fluxo de montagem
+Urgente,40,Verificar estoque de matéria-prima
+Opcional,45,Verificar estoque de matéria-prima
+Opcional,30,Pintura de peças metálicas
+Normal,10,Pintura de peças metálicas
+Opcional,30,Atualizar software da linha de produção
+Opcional,60,Montar kit educacional
+Opcional,30,Otimizar fluxo de montagem
+Urgente,40,Verificar estoque de matéria-prima
+Urgente,25,Treinar equipe em nova tecnologia
+Normal,15,Montar kit educacional
+Urgente,30,Revisar sistema de controle
+Urgente,30,Reparar esteira transportadora
+Urgente,40,Pintura de peças metálicas
+Urgente,35,Revisar sistema de controle
+Opcional,50,Reparar esteira transportadora
+Opcional,60,Otimizar fluxo de montagem
+Urgente,35,Substituir componentes defeituosos
+Normal,10,Verificar estoque de matéria-prima
+Urgente,20,Manutenção preventiva no motor
+Opcional,70,Revisar sistema de controle
+Urgente,40,Pintura de peças metálicas
+Normal,20,Pintura de peças metálicas
+Normal,18,Revisar sistema de controle
+Normal,10,Reparar esteira transportadora
+Normal,15,Reparar esteira transportadora
+Opcional,70,Reparar esteira transportadora
+Normal,25,Otimizar fluxo de montagem
+Normal,15,Treinar equipe em nova tecnologia
+Opcional,70,Atualizar software da linha de produção
+Opcional,45,Reparar esteira transportadora
+Opcional,70,Atualizar software da linha de produção
+Normal,15,Manutenção preventiva no motor
+Normal,18,Manutenção preventiva no motor
+Opcional,50,Pintura de peças metálicas
+Opcional,45,Verificar estoque de matéria-prima
+Urgente,35,Pintura de peças metálicas
+Urgente,30,Montar kit educacional
+Normal,10,Pintura de peças metálicas
+Opcional,30,Montar kit educacional
+Urgente,25,Reparar esteira transportadora
+Urgente,20,Substituir componentes defeituosos
+Normal,25,Pintura de peças metálicas
+Opcional,45,Manutenção preventiva no motor
+Opcional,60,Verificar estoque de matéria-prima
+Normal,25,Verificar estoque de matéria-prima
+Normal,10,Pintura de peças metálicas
+Urgente,30,Verificar estoque de matéria-prima
+Opcional,70,Revisar sistema de controle
+Opcional,30,Atualizar software da linha de produção
+Opcional,60,Atualizar software da linha de produção
+Normal,20,Atualizar software da linha de produção
+Urgente,30,Pintura de peças metálicas
+Opcional,50,Treinar equipe em nova tecnologia
+Urgente,25,Otimizar fluxo de montagem
+Urgente,30,Revisar sistema de controle
+Opcional,30,Montar kit educacional
+Normal,10,Manutenção preventiva no motor
+Opcional,45,Treinar equipe em nova tecnologia
+Opcional,60,Montar kit educacional
+Urgente,20,Otimizar fluxo de montagem
+Urgente,35,Revisar sistema de controle
+Urgente,20,Manutenção preventiva no motor
+Normal,10,Otimizar fluxo de montagem
+Urgente,35,Atualizar software da linha de produção
+Urgente,35,Manutenção preventiva no motor
+Normal,15,Revisar sistema de controle
+Normal,10,Revisar sistema de controle
+Opcional,60,Revisar sistema de controle
+Opcional,45,Otimizar fluxo de montagem
+Normal,20,Substituir componentes defeituosos
+Urgente,40,Revisar sistema de controle
+Urgente,35,Substituir componentes defeituosos
+Urgente,35,Treinar equipe em nova tecnologia
+Urgente,25,Pintura de peças metálicas
+Opcional,60,Revisar sistema de controle
+Opcional,30,Reparar esteira transportadora
+Urgente,35,Revisar sistema de controle
+Urgente,40,Atualizar software da linha de produção
+Urgente,35,Substituir componentes defeituosos
+Urgente,20,Otimizar fluxo de montagem
+Opcional,60,Treinar equipe em nova tecnologia
+Urgente,25,Atualizar software da linha de produção
+Normal,25,Pintura de peças metálicas
+Urgente,40,Montar kit educacional
+Urgente,25,Pintura de peças metálicas
+Urgente,40,Revisar sistema de controle
+Urgente,25,Manutenção preventiva no motor
+Opcional,45,Manutenção preventiva no motor
+Urgente,20,Atualizar software da linha de produção
+Normal,15,Pintura de peças metálicas
+Urgente,25,Otimizar fluxo de montagem
+Urgente,20,Pintura de peças metálicas
+Opcional,50,Substituir componentes defeituosos
+Urgente,25,Montar kit educacional
+Normal,10,Manutenção preventiva no motor
+Normal,10,Manutenção preventiva no motor
+Opcional,45,Atualizar software da linha de produção
+Normal,15,Treinar equipe em nova tecnologia
+Normal,18,Pintura de peças metálicas
+Opcional,45,Reparar esteira transportadora
+Opcional,70,Manutenção preventiva no motor
+Opcional,60,Manutenção preventiva no motor
+Normal,25,Otimizar fluxo de montagem
+Normal,15,Substituir componentes defeituosos
+Urgente,40,Manutenção preventiva no motor
+Opcional,45,Pintura de peças metálicas
+Opcional,50,Reparar esteira transportadora
+Opcional,45,Verificar estoque de matéria-prima
+Opcional,50,Manutenção preventiva no motor
+Normal,25,Reparar esteira transportadora
+Opcional,50,Verificar estoque de matéria-prima
+Normal,10,Montar kit educacional
+Normal,18,Atualizar software da linha de produção
+Urgente,30,Reparar esteira transportadora
+Urgente,40,Treinar equipe em nova tecnologia
+Urgente,20,Manutenção preventiva no motor
+Urgente,25,Otimizar fluxo de montagem
+Urgente,35,Treinar equipe em nova tecnologia
+Urgente,35,Atualizar software da linha de produção
+Normal,20,Verificar estoque de matéria-prima
+Urgente,35,Treinar equipe em nova tecnologia
+Urgente,35,Atualizar software da linha de produção
+Urgente,35,Montar kit educacional
+Opcional,50,Treinar equipe em nova tecnologia
+Urgente,30,Reparar esteira transportadora
+Opcional,60,Manutenção preventiva no motor
+Urgente,30,Pintura de peças metálicas
+Normal,25,Reparar esteira transportadora
+Normal,10,Atualizar software da linha de produção
+Normal,10,Substituir componentes defeituosos
+Normal,25,Verificar estoque de matéria-prima
+Opcional,30,Pintura de peças metálicas
+Normal,15,Verificar estoque de matéria-prima
+Opcional,45,Manutenção preventiva no motor
+Normal,10,Otimizar fluxo de montagem
+Normal,25,Manutenção preventiva no motor
+Normal,15,Reparar esteira transportadora
+Normal,18,Verificar estoque de matéria-prima
+Normal,18,Verificar estoque de matéria-prima
+Urgente,20,Revisar sistema de controle
+Opcional,50,Pintura de peças metálicas
+Normal,25,Atualizar software da linha de produção
+Urgente,20,Otimizar fluxo de montagem
+Normal,20,Montar kit educacional
+Opcional,50,Manutenção preventiva no motor
+Urgente,30,Reparar esteira transportadora
+Opcional,50,Atualizar software da linha de produção
+Opcional,45,Manutenção preventiva no motor
+Opcional,30,Montar kit educacional
+Opcional,30,Pintura de peças metálicas
+Urgente,30,Substituir componentes defeituosos
+Normal,18,Revisar sistema de controle
+Urgente,25,Treinar equipe em nova tecnologia
+Opcional,70,Verificar estoque de matéria-prima
+Urgente,40,Verificar estoque de matéria-prima
+Urgente,25,Substituir componentes defeituosos
+Urgente,25,Verificar estoque de matéria-prima
+Urgente,20,Atualizar software da linha de produção
+Urgente,35,Manutenção preventiva no motor
+Urgente,30,Otimizar fluxo de montagem
+Opcional,70,Treinar equipe em nova tecnologia
+Opcional,50,Revisar sistema de controle
+Urgente,40,Substituir componentes defeituosos
+Normal,15,Manutenção preventiva no motor
+Opcional,30,Atualizar software da linha de produção
+Normal,15,Substituir componentes defeituosos
+Urgente,25,Verificar estoque de matéria-prima
+Urgente,40,Verificar estoque de matéria-prima
+Normal,25,Reparar esteira transportadora
+Normal,25,Treinar equipe em nova tecnologia
+Normal,15,Montar kit educacional
+Opcional,70,Reparar esteira transportadora
+Urgente,35,Atualizar software da linha de produção
+Urgente,35,Revisar sistema de controle
+Opcional,50,Revisar sistema de controle
+Opcional,50,Revisar sistema de controle
+Normal,25,Otimizar fluxo de montagem
+Urgente,40,Atualizar software da linha de produção
+Normal,15,Atualizar software da linha de produção
+Opcional,45,Manutenção preventiva no motor
+Normal,25,Montar kit educacional
+Normal,18,Revisar sistema de controle
+Urgente,25,Substituir componentes defeituosos
+Opcional,45,Substituir componentes defeituosos
+Urgente,20,Manutenção preventiva no motor
+Normal,20,Otimizar fluxo de montagem
+Normal,20,Otimizar fluxo de montagem
+Normal,18,Substituir componentes defeituosos
+Opcional,30,Revisar sistema de controle
+Urgente,20,Montar kit educacional
+Normal,18,Manutenção preventiva no motor
+Normal,20,Pintura de peças metálicas
+Normal,18,Montar kit educacional
+Normal,15,Revisar sistema de controle
+Urgente,40,Atualizar software da linha de produção
+Opcional,60,Manutenção preventiva no motor
+Urgente,20,Revisar sistema de controle
+Normal,18,Manutenção preventiva no motor
+Opcional,45,Atualizar software da linha de produção
+Normal,15,Treinar equipe em nova tecnologia
+Urgente,40,Pintura de peças metálicas
+Normal,15,Revisar sistema de controle
+Urgente,30,Reparar esteira transportadora
+Urgente,35,Otimizar fluxo de montagem
+Urgente,20,Atualizar software da linha de produção
+Urgente,30,Substituir componentes defeituosos
+Urgente,35,Revisar sistema de controle
+Opcional,70,Atualizar software da linha de produção
+Opcional,45,Verificar estoque de matéria-prima
+Urgente,25,Manutenção preventiva no motor
+Normal,18,Treinar equipe em nova tecnologia
+Normal,25,Verificar estoque de matéria-prima
+Urgente,20,Montar kit educacional
+Urgente,35,Reparar esteira transportadora
+Normal,15,Montar kit educacional
+Normal,18,Atualizar software da linha de produção
+Urgente,30,Otimizar fluxo de montagem
+Normal,25,Atualizar software da linha de produção
+Opcional,70,Revisar sistema de controle
+Opcional,45,Pintura de peças metálicas
+Normal,18,Substituir componentes defeituosos
+Normal,25,Revisar sistema de controle
+Urgente,25,Revisar sistema de controle
+Urgente,20,Montar kit educacional
+Urgente,40,Montar kit educacional
+Opcional,60,Montar kit educacional
+Opcional,70,Treinar equipe em nova tecnologia
+Urgente,20,Verificar estoque de matéria-prima
+Opcional,70,Reparar esteira transportadora
+Urgente,40,Pintura de peças metálicas
+Opcional,60,Reparar esteira transportadora
+Urgente,30,Treinar equipe em nova tecnologia
+Urgente,40,Verificar estoque de matéria-prima
+Opcional,45,Substituir componentes defeituosos
+Urgente,35,Reparar esteira transportadora
+Opcional,50,Pintura de peças metálicas
+Opcional,60,Revisar sistema de controle
+Opcional,30,Revisar sistema de controle
+Normal,15,Revisar sistema de controle
+Urgente,30,Reparar esteira transportadora
+Urgente,40,Montar kit educacional
+Normal,25,Substituir componentes defeituosos
+Urgente,35,Manutenção preventiva no motor
+Urgente,30,Reparar esteira transportadora
+Normal,25,Verificar estoque de matéria-prima
+Urgente,20,Montar kit educacional
+Opcional,30,Treinar equipe em nova tecnologia
+Normal,10,Otimizar fluxo de montagem
+Opcional,45,Atualizar software da linha de produção
+Opcional,45,Manutenção preventiva no motor
+Urgente,20,Manutenção preventiva no motor
+Normal,10,Treinar equipe em nova tecnologia
+Opcional,50,Revisar sistema de controle
+Normal,15,Treinar equipe em nova tecnologia
+Opcional,45,Verificar estoque de matéria-prima
+Urgente,40,Montar kit educacional
+Urgente,35,Substituir componentes defeituosos
+Normal,25,Revisar sistema de controle
+Urgente,40,Manutenção preventiva no motor
+Opcional,60,Reparar esteira transportadora
+Normal,10,Manutenção preventiva no motor
+Opcional,45,Otimizar fluxo de montagem
+Normal,15,Atualizar software da linha de produção
+Normal,25,Atualizar software da linha de produção
+Opcional,30,Manutenção preventiva no motor
+Normal,15,Montar kit educacional
+Normal,10,Revisar sistema de controle
+Opcional,50,Substituir componentes defeituosos
+Normal,20,Atualizar software da linha de produção
+Opcional,45,Reparar esteira transportadora
+Opcional,60,Manutenção preventiva no motor
+Urgente,40,Substituir componentes defeituosos
+Opcional,30,Otimizar fluxo de montagem
+Normal,10,Reparar esteira transportadora
+Normal,18,Treinar equipe em nova tecnologia
+Urgente,40,Atualizar software da linha de produção
+Opcional,45,Montar kit educacional
+Opcional,45,Atualizar software da linha de produção
+Opcional,50,Substituir componentes defeituosos
+Urgente,20,Treinar equipe em nova tecnologia
+Urgente,30,Montar kit educacional
+Normal,20,Reparar esteira transportadora
+Opcional,30,Treinar equipe em nova tecnologia
+Urgente,25,Treinar equipe em nova tecnologia
+Urgente,20,Revisar sistema de controle
+Urgente,35,Revisar sistema de controle
+Urgente,30,Montar kit educacional
+Opcional,50,Treinar equipe em nova tecnologia
+Urgente,40,Atualizar software da linha de produção
+Normal,15,Verificar estoque de matéria-prima
+Opcional,70,Treinar equipe em nova tecnologia
+Opcional,45,Verificar estoque de matéria-prima
+Normal,20,Treinar equipe em nova tecnologia
+Opcional,50,Verificar estoque de matéria-prima
+Urgente,25,Revisar sistema de controle
+Urgente,30,Pintura de peças metálicas
+Urgente,20,Reparar esteira transportadora
+Normal,18,Treinar equipe em nova tecnologia
+Urgente,20,Manutenção preventiva no motor
+Opcional,45,Treinar equipe em nova tecnologia
+Urgente,25,Manutenção preventiva no motor
+Urgente,35,Reparar esteira transportadora
+Opcional,60,Substituir componentes defeituosos
+Opcional,45,Revisar sistema de controle
+Opcional,70,Montar kit educacional
+Opcional,50,Substituir componentes defeituosos
+Urgente,30,Atualizar software da linha de produção
+Urgente,35,Manutenção preventiva no motor
+Opcional,70,Otimizar fluxo de montagem
+Opcional,45,Otimizar fluxo de montagem
+Normal,10,Atualizar software da linha de produção
+Urgente,35,Otimizar fluxo de montagem
+Normal,15,Substituir componentes defeituosos
+Opcional,30,Reparar esteira transportadora
+Normal,18,Substituir componentes defeituosos
+Urgente,30,Reparar esteira transportadora
+Opcional,70,Pintura de peças metálicas
+Opcional,70,Atualizar software da linha de produção
+Urgente,20,Manutenção preventiva no motor
+Urgente,40,Verificar estoque de matéria-prima
+Opcional,30,Pintura de peças metálicas
+Opcional,45,Manutenção preventiva no motor
+Normal,10,Substituir componentes defeituosos
+Urgente,40,Reparar esteira transportadora
+Urgente,30,Reparar esteira transportadora
+Normal,20,Reparar esteira transportadora
+Normal,15,Verificar estoque de matéria-prima
+Normal,20,Pintura de peças metálicas
+Opcional,30,Verificar estoque de matéria-prima
+Urgente,30,Verificar estoque de matéria-prima
+Urgente,20,Atualizar software da linha de produção
+Opcional,45,Montar kit educacional
+Normal,25,Pintura de peças metálicas
+Normal,15,Manutenção preventiva no motor
+Normal,20,Manutenção preventiva no motor
+Normal,18,Otimizar fluxo de montagem
+Opcional,50,Reparar esteira transportadora
+Normal,20,Pintura de peças metálicas
+Normal,10,Montar kit educacional
+Normal,15,Revisar sistema de controle
+Opcional,70,Otimizar fluxo de montagem
+Opcional,30,Otimizar fluxo de montagem
+Urgente,40,Verificar estoque de matéria-prima
+Normal,25,Treinar equipe em nova tecnologia
+Opcional,50,Manutenção preventiva no motor
+Urgente,20,Revisar sistema de controle
+Opcional,70,Manutenção preventiva no motor
+Urgente,35,Substituir componentes defeituosos
+Normal,15,Revisar sistema de controle
+Urgente,25,Verificar estoque de matéria-prima
+Normal,25,Verificar estoque de matéria-prima
+Opcional,50,Revisar sistema de controle
+Opcional,70,Verificar estoque de matéria-prima
+Normal,20,Manutenção preventiva no motor
+Opcional,70,Verificar estoque de matéria-prima
+Urgente,40,Substituir componentes defeituosos
+Normal,10,Revisar sistema de controle
+Urgente,20,Manutenção preventiva no motor
+Opcional,45,Substituir componentes defeituosos
+Normal,25,Otimizar fluxo de montagem
+Opcional,50,Substituir componentes defeituosos
+Normal,25,Atualizar software da linha de produção
+Opcional,30,Manutenção preventiva no motor
+Normal,15,Substituir componentes defeituosos
+Normal,20,Revisar sistema de controle
+Urgente,25,Substituir componentes defeituosos
+Opcional,45,Reparar esteira transportadora
+Opcional,50,Pintura de peças metálicas
+Normal,25,Reparar esteira transportadora
+Normal,18,Revisar sistema de controle
+Normal,20,Reparar esteira transportadora
+Urgente,30,Treinar equipe em nova tecnologia
+Opcional,50,Pintura de peças metálicas
+Opcional,70,Verificar estoque de matéria-prima
+Urgente,25,Reparar esteira transportadora
+Urgente,40,Atualizar software da linha de produção
+Opcional,30,Revisar sistema de controle
+Urgente,20,Otimizar fluxo de montagem
+Opcional,45,Verificar estoque de matéria-prima
+Opcional,50,Montar kit educacional
+Normal,25,Pintura de peças metálicas
+Opcional,70,Montar kit educacional
+Urgente,40,Revisar sistema de controle
+Normal,20,Montar kit educacional
+Urgente,20,Reparar esteira transportadora
+Opcional,70,Montar kit educacional
+Urgente,30,Manutenção preventiva no motor
+Opcional,50,Otimizar fluxo de montagem
+Opcional,30,Manutenção preventiva no motor
+Normal,10,Verificar estoque de matéria-prima
+Urgente,30,Verificar estoque de matéria-prima
+Urgente,20,Montar kit educacional
+Normal,18,Atualizar software da linha de produção
+Normal,20,Pintura de peças metálicas
+Opcional,30,Atualizar software da linha de produção
+Normal,15,Substituir componentes defeituosos
+Opcional,30,Treinar equipe em nova tecnologia
+Normal,20,Substituir componentes defeituosos
+Urgente,40,Atualizar software da linha de produção
+Opcional,70,Otimizar fluxo de montagem
+Urgente,20,Revisar sistema de controle
+Normal,10,Substituir componentes defeituosos
+Urgente,40,Revisar sistema de controle
+Opcional,45,Verificar estoque de matéria-prima
+Normal,25,Otimizar fluxo de montagem
+Urgente,25,Montar kit educacional
+Normal,25,Revisar sistema de controle
+Urgente,20,Manutenção preventiva no motor
+Urgente,20,Atualizar software da linha de produção
+Opcional,70,Pintura de peças metálicas
+Urgente,25,Treinar equipe em nova tecnologia
+Normal,20,Revisar sistema de controle
+Urgente,30,Montar kit educacional
+Normal,20,Substituir componentes defeituosos
+Urgente,25,Manutenção preventiva no motor
+Normal,20,Pintura de peças metálicas
+Urgente,20,Pintura de peças metálicas
+Opcional,30,Treinar equipe em nova tecnologia
+Normal,10,Revisar sistema de controle
+Normal,25,Revisar sistema de controle
+Urgente,30,Verificar estoque de matéria-prima
+Normal,18,Revisar sistema de controle
+Urgente,35,Revisar sistema de controle
+Normal,20,Manutenção preventiva no motor
+Opcional,45,Pintura de peças metálicas
+Opcional,30,Atualizar software da linha de produção
+Normal,18,Substituir componentes defeituosos
+Normal,18,Manutenção preventiva no motor
+Opcional,45,Otimizar fluxo de montagem
+Normal,25,Pintura de peças metálicas
+Normal,10,Manutenção preventiva no motor
+Normal,20,Verificar estoque de matéria-prima
+Urgente,20,Reparar esteira transportadora
+Normal,18,Reparar esteira transportadora
+Opcional,30,Treinar equipe em nova tecnologia
+Urgente,40,Reparar esteira transportadora
+Opcional,50,Manutenção preventiva no motor
+Normal,25,Treinar equipe em nova tecnologia
+Opcional,30,Revisar sistema de controle
+Opcional,45,Otimizar fluxo de montagem
+Normal,25,Otimizar fluxo de montagem
+Normal,20,Verificar estoque de matéria-prima
+Normal,10,Revisar sistema de controle
+Urgente,35,Substituir componentes defeituosos
+Urgente,25,Montar kit educacional
+Opcional,50,Pintura de peças metálicas
+Urgente,25,Verificar estoque de matéria-prima
+Opcional,30,Manutenção preventiva no motor
+Urgente,25,Verificar estoque de matéria-prima
+Opcional,70,Reparar esteira transportadora
+Opcional,60,Treinar equipe em nova tecnologia
+Normal,18,Substituir componentes defeituosos
+Opcional,70,Montar kit educacional
+Normal,25,Manutenção preventiva no motor
+Normal,10,Treinar equipe em nova tecnologia
+Opcional,30,Pintura de peças metálicas
+Urgente,20,Treinar equipe em nova tecnologia
+Opcional,60,Verificar estoque de matéria-prima
+Urgente,35,Manutenção preventiva no motor
+Normal,18,Montar kit educacional
+Normal,15,Montar kit educacional
+Urgente,40,Otimizar fluxo de montagem
+Urgente,25,Revisar sistema de controle
+Normal,15,Verificar estoque de matéria-prima
+Urgente,40,Verificar estoque de matéria-prima
+Opcional,70,Pintura de peças metálicas
+Opcional,45,Manutenção preventiva no motor
+Normal,15,Otimizar fluxo de montagem
+Opcional,30,Otimizar fluxo de montagem
+Normal,20,Pintura de peças metálicas
+Normal,25,Treinar equipe em nova tecnologia
+Opcional,50,Treinar equipe em nova tecnologia
+Opcional,70,Otimizar fluxo de montagem
+Urgente,25,Pintura de peças metálicas
+Normal,25,Montar kit educacional
+Urgente,35,Verificar estoque de matéria-prima
+Opcional,60,Reparar esteira transportadora
+Opcional,60,Revisar sistema de controle
+Opcional,30,Substituir componentes defeituosos
+Opcional,45,Reparar esteira transportadora
+Urgente,30,Montar kit educacional
+Opcional,30,Otimizar fluxo de montagem
+Urgente,20,Reparar esteira transportadora
+Urgente,20,Verificar estoque de matéria-prima
+Opcional,60,Verificar estoque de matéria-prima
+Normal,25,Pintura de peças metálicas
+Urgente,20,Atualizar software da linha de produção
+Opcional,60,Revisar sistema de controle
+Urgente,20,Revisar sistema de controle
+Opcional,70,Revisar sistema de controle
+Normal,18,Revisar sistema de controle
+Urgente,20,Pintura de peças metálicas
+Opcional,50,Atualizar software da linha de produção
+Urgente,20,Pintura de peças metálicas
+Opcional,45,Pintura de peças metálicas
+Opcional,45,Revisar sistema de controle
+Urgente,25,Atualizar software da linha de produção
+Normal,20,Revisar sistema de controle
+Opcional,70,Montar kit educacional
+Urgente,20,Revisar sistema de controle
+Normal,25,Treinar equipe em nova tecnologia
+Urgente,25,Atualizar software da linha de produção
+Normal,25,Verificar estoque de matéria-prima
+Normal,25,Treinar equipe em nova tecnologia
+Urgente,20,Substituir componentes defeituosos
+Urgente,40,Manutenção preventiva no motor
+Opcional,50,Pintura de peças metálicas
+Opcional,45,Atualizar software da linha de produção
+Urgente,30,Atualizar software da linha de produção
+Opcional,45,Manutenção preventiva no motor
+Normal,15,Montar kit educacional
+Opcional,60,Reparar esteira transportadora
+Normal,10,Treinar equipe em nova tecnologia
+Normal,10,Montar kit educacional
+Normal,15,Atualizar software da linha de produção
+Opcional,30,Atualizar software da linha de produção
+Urgente,25,Atualizar software da linha de produção
+Opcional,50,Verificar estoque de matéria-prima
+Opcional,50,Atualizar software da linha de produção
+Normal,25,Manutenção preventiva no motor
+Opcional,45,Montar kit educacional
+Normal,15,Manutenção preventiva no motor
+Normal,10,Atualizar software da linha de produção
+Urgente,40,Treinar equipe em nova tecnologia
+Normal,25,Revisar sistema de controle
+Normal,20,Atualizar software da linha de produção
+Urgente,40,Revisar sistema de controle
+Opcional,60,Manutenção preventiva no motor
+Opcional,30,Pintura de peças metálicas
+Urgente,35,Reparar esteira transportadora
+Opcional,30,Otimizar fluxo de montagem
+Opcional,30,Montar kit educacional
+Normal,15,Otimizar fluxo de montagem
+Normal,25,Montar kit educacional
+Normal,10,Reparar esteira transportadora
+Normal,18,Atualizar software da linha de produção
+Urgente,35,Pintura de peças metálicas
+Opcional,50,Treinar equipe em nova tecnologia
+Urgente,35,Pintura de peças metálicas
+Opcional,70,Atualizar software da linha de produção
+Normal,25,Pintura de peças metálicas
+Urgente,30,Substituir componentes defeituosos
+Normal,18,Reparar esteira transportadora
+Normal,20,Revisar sistema de controle
+Opcional,60,Atualizar software da linha de produção
+Opcional,60,Atualizar software da linha de produção
+Urgente,20,Substituir componentes defeituosos
+Urgente,20,Verificar estoque de matéria-prima
+Normal,25,Reparar esteira transportadora
+Normal,20,Revisar sistema de controle
+Normal,15,Pintura de peças metálicas
+Normal,25,Substituir componentes defeituosos
+Opcional,70,Reparar esteira transportadora
+Urgente,40,Otimizar fluxo de montagem
+Opcional,70,Atualizar software da linha de produção
+Opcional,70,Manutenção preventiva no motor
+Urgente,35,Reparar esteira transportadora
+Urgente,30,Atualizar software da linha de produção
+Urgente,20,Verificar estoque de matéria-prima
+Opcional,50,Verificar estoque de matéria-prima
+Normal,25,Revisar sistema de controle
+Normal,20,Verificar estoque de matéria-prima
+Opcional,50,Substituir componentes defeituosos
+Normal,18,Treinar equipe em nova tecnologia
+Normal,25,Montar kit educacional
+Urgente,25,Treinar equipe em nova tecnologia
+Normal,18,Pintura de peças metálicas
+Urgente,35,Substituir componentes defeituosos
+Urgente,30,Otimizar fluxo de montagem
+Urgente,20,Reparar esteira transportadora
+Normal,15,Verificar estoque de matéria-prima
+Urgente,40,Reparar esteira transportadora
+Opcional,45,Otimizar fluxo de montagem
+Opcional,70,Pintura de peças metálicas
