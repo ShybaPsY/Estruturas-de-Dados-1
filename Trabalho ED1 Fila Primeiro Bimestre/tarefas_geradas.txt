@@ -1,5 +1,5 @@
 Opcional,50,Montar kit educacional
-Urgente,25,Revisar sistema de controle
+Urgente,50,Revisar sistema de controle
 Normal,18,Treinar equipe em nova tecnologia
 Normal,20,Revisar sistema de controle
 Normal,10,Reparar esteira transportadora
@@ -13,7 +13,7 @@ Urgente,40,Atualizar software da linha de produção
 Urgente,40,Reparar esteira transportadora
 Normal,25,Atualizar software da linha de produção
 Opcional,50,Pintura de peças metálicas
-Urgente,30,Substituir componentes defeituosos
+Urgente,30000,Substituir componentes defeituosos
 Normal,18,Montar kit educacional
 Normal,25,Manutenção preventiva no motor
 Normal,25,Revisar sistema de controle

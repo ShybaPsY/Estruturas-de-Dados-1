@@ -25,7 +25,7 @@ TpTarefa primeiroValor(TpFila f);
 
 void inicializar(TpFila &f){
 	f.fim = -1;
-	strcpy(f.nome, "");
+	strcpy(f.nome, "Vazio");
 }
 
 void inserir(TpFila &f, TpTarefa aux){
