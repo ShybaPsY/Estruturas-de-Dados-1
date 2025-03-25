@@ -13,7 +13,7 @@ void getNomeArq(char nome[100]){
 	char aux[100];
 	
 	gotoxy(57, 10); textcolor(15); printf("Arquivo: ");
-	gotoxy(66, 10); textcolor(14); printf("tarefas_geradas.txt");
+	gotoxy(66, 10); textcolor(14); printf("%s", nome);
 	
 	textcolor(7);
 	
@@ -102,7 +102,7 @@ void simular(TpFila f){
 		scanf("%d", &duracao);
 		
 		if(duracao>0){
-			fprintf(auxRel,"Prioridade - Estado - Descrição\n");
+			fprintf(auxRel,"Prioridade - Estado - Tempo - Descrição\n");
 			exibirFilaQtde(f, 5);
 			do{
 				for(i=0; i<qtdeTrab; i++){
@@ -129,7 +129,7 @@ void simular(TpFila f){
 						qtdeTerminada++;
 					}
 					if(trabalhando[i].tempo>0){
-						fprintf(auxRel, "%d - Inconcluido - %s\n",trabalhando[i].prioridade,trabalhando[i].desc);
+						fprintf(auxRel, "%d - Inconcluido - %d - %s\n",trabalhando[i].prioridade,trabalhando[i].tempo ,trabalhando[i].desc);
 					}
 				}
 				printf("Simulacao encerrada antecipadamente!!");
@@ -141,7 +141,7 @@ void simular(TpFila f){
 						qtdeTerminada++;
 					}
 					if(trabalhando[i].tempo>0){
-						fprintf(auxRel, "%d - Inconcluido - %s\n",trabalhando[i].prioridade,trabalhando[i].desc);
+						fprintf(auxRel, "%d - Inconcluido - %d - %s\n",trabalhando[i].prioridade,trabalhando[i].tempo ,trabalhando[i].desc);
 					}
 				}
 				printf("Simulacao encerrada!!");

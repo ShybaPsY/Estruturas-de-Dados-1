@@ -155,7 +155,7 @@ int main()
 			}
 			case 'B':{
 				
-				if(strcmp(f.nome, "") == 0){
+				if(strcmp(f.nome, "Vazio") == 0){
 					gotoxy(7, 26);
 					printf("Arquivo não inserido, considere inserir na opcao A");
 					getch();

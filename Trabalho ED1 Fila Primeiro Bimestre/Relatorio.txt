@@ -1,38 +1,24 @@
-Prioridade - Estado - Descri��o
+Prioridade - Estado - Tempo - Descri��o
 3 - Concluido - Revisar sistema de controle
 3 - Concluido - Treinar equipe em nova tecnologia
 3 - Concluido - Reparar esteira transportadora
 3 - Concluido - Atualizar software da linha de produção
-3 - Concluido - Substituir componentes defeituosos
 3 - Concluido - Reparar esteira transportadora
+3 - Concluido - Substituir componentes defeituosos
 3 - Concluido - Revisar sistema de controle
 3 - Concluido - Atualizar software da linha de produção
 3 - Concluido - Treinar equipe em nova tecnologia
 3 - Concluido - Revisar sistema de controle
-3 - Concluido - Revisar sistema de controle
 3 - Concluido - Substituir componentes defeituosos
+3 - Concluido - Revisar sistema de controle
 3 - Concluido - Substituir componentes defeituosos
 3 - Concluido - Atualizar software da linha de produção
 3 - Concluido - Treinar equipe em nova tecnologia
 3 - Concluido - Substituir componentes defeituosos
 3 - Concluido - Montar kit educacional
 3 - Concluido - Otimizar fluxo de montagem
+3 - Inconcluido - 21 - Manutenção preventiva no motor
 3 - Concluido - Treinar equipe em nova tecnologia
 3 - Concluido - Treinar equipe em nova tecnologia
-3 - Concluido - Montar kit educacional
-3 - Concluido - Manutenção preventiva no motor
-3 - Concluido - Otimizar fluxo de montagem
-3 - Concluido - Otimizar fluxo de montagem
-3 - Concluido - Otimizar fluxo de montagem
-3 - Concluido - Pintura de peças metálicas
-3 - Concluido - Reparar esteira transportadora
-3 - Concluido - Substituir componentes defeituosos
-3 - Concluido - Reparar esteira transportadora
-3 - Concluido - Otimizar fluxo de montagem
-3 - Concluido - Reparar esteira transportadora
-3 - Concluido - Treinar equipe em nova tecnologia
-3 - Concluido - Atualizar software da linha de produção
-3 - Concluido - Verificar estoque de matéria-prima
-3 - Inconcluido - Atualizar software da linha de produção
-3 - Inconcluido - Verificar estoque de matéria-prima
-3 - Concluido - Otimizar fluxo de montagem
+3 - Inconcluido - 6 - Montar kit educacional
+3 - Inconcluido - 16 - Otimizar fluxo de montagem
