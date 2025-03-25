@@ -1,4 +1,5 @@
 #include "TAD.h"
+#include<conio2.h>
 
 //funções
 void getNomeArq(char nome[100]);
@@ -10,18 +11,33 @@ void simular(TpFila f);
 
 void getNomeArq(char nome[100]){
 	char aux[100];
-	printf("Digite o nome do arquivo a ser atualizado: ");
+	
+	gotoxy(57, 10); textcolor(15); printf("Arquivo: ");
+	gotoxy(66, 10); textcolor(14); printf("tarefas_geradas.txt");
+	
+	textcolor(7);
+	
+	gotoxy(7, 14);
+	printf("Nome do arquivo a ser atualizado: ");
 	fflush(stdin);
 	gets(aux);
-	FILE *auxArq = fopen(aux, "r+");
-	if(auxArq == NULL){
-		printf("Arquivo invalido!");
+	
+	if(strcmp(aux, "\0") != 0 )
+	{
+		FILE *auxArq = fopen(aux, "r+");
+		
+		if(auxArq == NULL){
+			gotoxy(7, 26);
+			printf("Arquivo invalido!");
+		}
+		else{
+			gotoxy(7, 26);
+			printf("Arquivo valido!");
+			strcpy(nome, aux);
+		}
+		getch();
+		fclose(auxArq);
 	}
-	else{
-		printf("Arquivo valido!");
-		strcpy(nome, aux);
-	}
-	fclose(auxArq);
 }
 
 
@@ -31,7 +47,7 @@ void getDadosArq(TpFila &f, FILE *auxArq){
 	TpTarefa tarefa;
 	while(!feof(auxArq)){
 		fscanf(auxArq,"%[^,],%d,%[^\n]\n",&aux,&tarefa.tempo,&tarefa.desc);
-		printf("\n\n\n%s\t%d\t%s", aux, tarefa.tempo, tarefa.desc);
+		
 		if(strcmp("Urgente", aux) == 0){
 			tarefa.prioridade = 3;
 		}
@@ -71,15 +87,20 @@ void simular(TpFila f){
 	fseek(auxArq,0,0);
 	getDadosArq(f, auxArq);
 	qtdeTotal = f.fim;
-	printf("Digite a quantidade de operadores:");
+	
+	gotoxy(7, 14);
+	printf("Digite a quantidade de operadores: ");
 	scanf("%d", &qtdeTrab);
+	
 	TpTarefa trabalhando[qtdeTrab];
 	if(qtdeTrab>0){
 		for(i=0;i<qtdeTrab;i++){
 			trabalhando[i] = retirar(f);
 		}
-		printf("Digite a duração da simulação em minutos inteiros:");
+		gotoxy(7, 16);
+		printf("Digite a duração da simulação em minutos inteiros: ");
 		scanf("%d", &duracao);
+		
 		if(duracao>0){
 			fprintf(auxRel,"Prioridade - Estado - Descrição\n");
 			exibirFilaQtde(f, 5);
