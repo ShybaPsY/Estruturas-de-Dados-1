@@ -1,4 +1,3 @@
-Tipo,TempoConclusao,DescricaoTarefa
 Opcional,50,Montar kit educacional
 Urgente,25,Revisar sistema de controle
 Normal,18,Treinar equipe em nova tecnologia

@@ -1,30 +1,39 @@
 #define MAXFILA 1000
 
+struct TpTarefa{
+	int prioridade;
+	int tempo;
+	char desc[100];
+};
+
+
 struct TpFila{
-	int fila[MAXFILA];
+	TpTarefa fila[MAXFILA];
+	char nome[100];
 	int fim;
 };
 
 void inicializar(TpFila &f);
 void inserir(TpFila &f, int aux);
-int retirar(TpFila &f);
+TpTarefa retirar(TpFila &f);
 bool vazia(int fim);
 bool cheia(int fim);
 void exibir(TpFila f);
 void esvaziar(TpFila &f);
-int ultimoValor(TpFila f);
-int primeiroValor(TpFila f);
+TpTarefa ultimoValor(TpFila f);
+TpTarefa primeiroValor(TpFila f);
 
 void inicializar(TpFila &f){
 	f.fim = -1;
+	strcpy(f.nome, "");
 }
 
-void inserir(TpFila &f, int aux){
+void inserir(TpFila &f, TpTarefa aux){
 	f.fila[++f.fim] = aux;
 }
 
-int retirar(TpFila &f){
-	int aux = f.fila[0];
+TpTarefa retirar(TpFila &f){
+	TpTarefa aux = f.fila[0];
 	for(int i=0; i< f.fim; i++)
 		f.fila[i] = f.fila[i+1];
 	f.fim--;
@@ -40,21 +49,25 @@ bool cheia(int fim){
 }
 
 void exibir(TpFila f){
+	TpTarefa t;
 	while(!vazia(f.fim)){
-		printf("valor: %d\n", retirar(f));
+		t = retirar(f);
+		printf("Prioridade: %d - Tempo: %d - Descricao: %s\n", t.prioridade, t.tempo, t.desc);
 	}
 }
 
 void esvaziar(TpFila &f){
+	TpTarefa t;
 	while(!vazia(f.fim)){
-		printf("valor: %d\n", retirar(f));
+		t = retirar(f);
+		printf("Prioridade: %d - Tempo: %d - Descricao: %s\n", t.prioridade, t.tempo, t.desc);
 	}
 }
 
-int ultimoValor(TpFila f){
+TpTarefa ultimoValor(TpFila f){
 	return f.fila[f.fim];
 }
 
-int primeiroValor(TpFila f){
+TpTarefa primeiroValor(TpFila f){
 	return f.fila[0];
 }
