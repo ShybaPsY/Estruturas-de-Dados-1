@@ -1,14 +1,14 @@
-
+#include "TAD.h"
 
 //funções
-void getNomeArq(char &nome[100]);
+void getNomeArq(char nome[100]);
 void getDadosArq(TpFila &f, FILE *auxArq);
 void exibirFilaQtde(TpFila f, int qtde);
 void simular(TpFila f);
 //funções
 
 
-void getNomeArq(char &nome[100]){
+void getNomeArq(char nome[100]){
 	char aux[100];
 	printf("Digite o nome do arquivo a ser atualizado: ");
 	fflush(stdin);
@@ -30,7 +30,8 @@ void getDadosArq(TpFila &f, FILE *auxArq){
 	int i;
 	TpTarefa tarefa;
 	while(!feof(auxArq)){
-		fscanf(auxArq,"[^,],%d,%s",&aux,&tarefa.tempo,&tarefa.desc);
+		fscanf(auxArq,"%[^,],%d,%[^\n]\n",&aux,&tarefa.tempo,&tarefa.desc);
+		printf("\n\n\n%s\t%d\t%s", aux, tarefa.tempo, tarefa.desc);
 		if(strcmp("Urgente", aux) == 0){
 			tarefa.prioridade = 3;
 		}
@@ -44,7 +45,7 @@ void getDadosArq(TpFila &f, FILE *auxArq){
 		}
 		if(!cheia(f.fim)){
 			inserir(f,tarefa);
-			for(i=f.fim; i>1 && f.fila[i].prioridade > f.fila[i-1].prioridade; i--){
+			for(i=f.fim; i>0 && f.fila[i].prioridade > f.fila[i-1].prioridade; i--){
 				tarefa = f.fila[i];
 				f.fila[i] = f.fila[i-1];
 				f.fila[i-1] = tarefa;
@@ -64,9 +65,9 @@ void exibirFilaQtde(TpFila f, int qtde){
 
 void simular(TpFila f){
 	FILE *auxArq = fopen(f.nome, "r+");
-	FILE *auxRel = fopen("Relatorio", "w");
+	FILE *auxRel = fopen("Relatorio.txt", "w");
 	int qtdeTotal, qtdeTrab, duracao, qtdeTerminada=0, tempoTrabalhado=0;
-	
+	int i;
 	fseek(auxArq,0,0);
 	getDadosArq(f, auxArq);
 	qtdeTotal = f.fim;
@@ -74,7 +75,7 @@ void simular(TpFila f){
 	scanf("%d", &qtdeTrab);
 	TpTarefa trabalhando[qtdeTrab];
 	if(qtdeTrab>0){
-		for(int i=0;i<qtdeTrab;i++){
+		for(i=0;i<qtdeTrab;i++){
 			trabalhando[i] = retirar(f);
 		}
 		printf("Digite a duração da simulação em minutos inteiros:");
@@ -85,7 +86,7 @@ void simular(TpFila f){
 			do{
 				for(i=0; i<qtdeTrab; i++){
 					if(trabalhando[i].tempo == 0){
-						fprintf("%d - Concluido - %s\n",trabalhando[i].prioridade,trabalhando[i].desc);
+						fprintf(auxRel, "%d - Concluido - %s\n",trabalhando[i].prioridade,trabalhando[i].desc);
 						qtdeTerminada++;
 						if(!vazia(f.fim))
 							trabalhando[i] = retirar(f);
@@ -97,19 +98,34 @@ void simular(TpFila f){
 					}
 				}
 				tempoTrabalhado++;
-			}while(!kbhit && duracao > 0);
+				duracao--;
+			}while(!kbhit() && duracao > 0);
 			
 			if(duracao > 0){
-				printf("Simulacao encerrada antecipadamente!!");
 				for(i=0; i<qtdeTrab; i++){
+					if(trabalhando[i].tempo == 0){
+						fprintf(auxRel, "%d - Concluido - %s\n",trabalhando[i].prioridade,trabalhando[i].desc);
+						qtdeTerminada++;
+					}
 					if(trabalhando[i].tempo>0){
-						fprintf("%d - Inconcluido - %s\n",trabalhando[i].prioridade,trabalhando[i].desc);
+						fprintf(auxRel, "%d - Inconcluido - %s\n",trabalhando[i].prioridade,trabalhando[i].desc);
 					}
 				}
+				printf("Simulacao encerrada antecipadamente!!");
 			}
 			else{
+				for(i=0; i<qtdeTrab; i++){
+					if(trabalhando[i].tempo == 0){
+						fprintf(auxRel, "%d - Concluido - %s\n",trabalhando[i].prioridade,trabalhando[i].desc);
+						qtdeTerminada++;
+					}
+					if(trabalhando[i].tempo>0){
+						fprintf(auxRel, "%d - Inconcluido - %s\n",trabalhando[i].prioridade,trabalhando[i].desc);
+					}
+				}
 				printf("Simulacao encerrada!!");
 			}
+			printf("Tempo trabalhado: %d", tempoTrabalhado);
 			printf("Numero Total de Tarefas Concluidas: %d", qtdeTerminada);
 			printf("Numero total de tarefas não concluidas: %d", (qtdeTotal-qtdeTerminada));
 		}

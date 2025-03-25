@@ -8,7 +8,7 @@
 #include <direct.h>
 #include <conio.h>
 #include "functions.h"
-#include "TAD.h"
+
 
 
 char menu(){
@@ -44,5 +44,6 @@ int main(){
 				}
 				break;
 			}
+		}
 	}while(op!= 27);
 }
