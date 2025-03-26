@@ -1,24 +1,1001 @@
-Prioridade - Estado - Tempo - Descri��o
-3 - Concluido - Revisar sistema de controle
-3 - Concluido - Treinar equipe em nova tecnologia
-3 - Concluido - Reparar esteira transportadora
-3 - Concluido - Atualizar software da linha de produção
-3 - Concluido - Reparar esteira transportadora
-3 - Concluido - Substituir componentes defeituosos
-3 - Concluido - Revisar sistema de controle
-3 - Concluido - Atualizar software da linha de produção
-3 - Concluido - Treinar equipe em nova tecnologia
-3 - Concluido - Revisar sistema de controle
-3 - Concluido - Substituir componentes defeituosos
-3 - Concluido - Revisar sistema de controle
-3 - Concluido - Substituir componentes defeituosos
-3 - Concluido - Atualizar software da linha de produção
-3 - Concluido - Treinar equipe em nova tecnologia
-3 - Concluido - Substituir componentes defeituosos
-3 - Concluido - Montar kit educacional
-3 - Concluido - Otimizar fluxo de montagem
-3 - Inconcluido - 21 - Manutenção preventiva no motor
-3 - Concluido - Treinar equipe em nova tecnologia
-3 - Concluido - Treinar equipe em nova tecnologia
-3 - Inconcluido - 6 - Montar kit educacional
-3 - Inconcluido - 16 - Otimizar fluxo de montagem
+Prioridade - Estado - Tempo - Operador - Descricao
+3 - Concluido - 2 - Pintura de pecas metalicas
+3 - Concluido - 4 - Manutencao preventiva no motor
+3 - Concluido - 5 - Reparar esteira transportadora
+3 - Concluido - 1 - Substituir componentes defeituosos
+3 - Concluido - 3 - Treinar equipe em nova tecnologia
+3 - Concluido - 5 - Montar kit educacional
+3 - Concluido - 2 - Otimizar fluxo de montagem
+3 - Concluido - 4 - Revisar sistema de controle
+3 - Concluido - 1 - Pintura de pecas metalicas
+3 - Concluido - 3 - Substituir componentes defeituosos
+3 - Concluido - 5 - Manutencao preventiva no motor
+3 - Concluido - 3 - Verificar estoque de materia-prima
+3 - Concluido - 4 - Verificar estoque de materia-prima
+3 - Concluido - 1 - Montar kit educacional
+3 - Concluido - 2 - Verificar estoque de materia-prima
+3 - Concluido - 4 - Atualizar software da linha de producao
+3 - Concluido - 3 - Montar kit educacional
+3 - Concluido - 5 - Manutencao preventiva no motor
+3 - Concluido - 1 - Treinar equipe em nova tecnologia
+3 - Concluido - 2 - Substituir componentes defeituosos
+3 - Concluido - 1 - Reparar esteira transportadora
+3 - Concluido - 2 - Treinar equipe em nova tecnologia
+3 - Concluido - 3 - Treinar equipe em nova tecnologia
+3 - Concluido - 4 - Revisar sistema de controle
+3 - Concluido - 5 - Manutencao preventiva no motor
+3 - Concluido - 2 - Substituir componentes defeituosos
+3 - Concluido - 5 - Substituir componentes defeituosos
+3 - Concluido - 1 - Reparar esteira transportadora
+3 - Concluido - 3 - Atualizar software da linha de producao
+3 - Concluido - 4 - Substituir componentes defeituosos
+3 - Concluido - 5 - Treinar equipe em nova tecnologia
+3 - Concluido - 1 - Substituir componentes defeituosos
+3 - Concluido - 2 - Reparar esteira transportadora
+3 - Concluido - 4 - Otimizar fluxo de montagem
+3 - Concluido - 3 - Atualizar software da linha de producao
+3 - Concluido - 1 - Atualizar software da linha de producao
+3 - Concluido - 2 - Treinar equipe em nova tecnologia
+3 - Concluido - 5 - Pintura de pecas metalicas
+3 - Concluido - 3 - Atualizar software da linha de producao
+3 - Concluido - 4 - Treinar equipe em nova tecnologia
+3 - Concluido - 1 - Reparar esteira transportadora
+3 - Concluido - 5 - Montar kit educacional
+3 - Concluido - 2 - Reparar esteira transportadora
+3 - Concluido - 4 - Substituir componentes defeituosos
+3 - Concluido - 1 - Otimizar fluxo de montagem
+3 - Concluido - 3 - Pintura de pecas metalicas
+3 - Concluido - 5 - Pintura de pecas metalicas
+3 - Concluido - 2 - Pintura de pecas metalicas
+3 - Concluido - 4 - Revisar sistema de controle
+3 - Concluido - 1 - Reparar esteira transportadora
+3 - Concluido - 5 - Otimizar fluxo de montagem
+3 - Concluido - 3 - Verificar estoque de materia-prima
+3 - Concluido - 2 - Manutencao preventiva no motor
+3 - Concluido - 4 - Revisar sistema de controle
+3 - Concluido - 1 - Verificar estoque de materia-prima
+3 - Concluido - 3 - Revisar sistema de controle
+3 - Concluido - 2 - Substituir componentes defeituosos
+3 - Concluido - 5 - Substituir componentes defeituosos
+3 - Concluido - 4 - Montar kit educacional
+3 - Concluido - 1 - Reparar esteira transportadora
+3 - Concluido - 5 - Otimizar fluxo de montagem
+3 - Concluido - 3 - Substituir componentes defeituosos
+3 - Concluido - 4 - Reparar esteira transportadora
+3 - Concluido - 2 - Treinar equipe em nova tecnologia
+3 - Concluido - 1 - Pintura de pecas metalicas
+3 - Concluido - 3 - Verificar estoque de materia-prima
+3 - Concluido - 5 - Reparar esteira transportadora
+3 - Concluido - 2 - Verificar estoque de materia-prima
+3 - Concluido - 4 - Treinar equipe em nova tecnologia
+3 - Concluido - 5 - Montar kit educacional
+3 - Concluido - 1 - Reparar esteira transportadora
+3 - Concluido - 4 - Substituir componentes defeituosos
+3 - Concluido - 3 - Verificar estoque de materia-prima
+3 - Concluido - 2 - Otimizar fluxo de montagem
+3 - Concluido - 1 - Verificar estoque de materia-prima
+3 - Concluido - 5 - Otimizar fluxo de montagem
+3 - Concluido - 3 - Otimizar fluxo de montagem
+3 - Concluido - 4 - Montar kit educacional
+3 - Concluido - 2 - Substituir componentes defeituosos
+3 - Concluido - 5 - Verificar estoque de materia-prima
+3 - Concluido - 1 - Pintura de pecas metalicas
+3 - Concluido - 4 - Treinar equipe em nova tecnologia
+3 - Concluido - 2 - Treinar equipe em nova tecnologia
+3 - Concluido - 3 - Manutencao preventiva no motor
+3 - Concluido - 1 - Otimizar fluxo de montagem
+3 - Concluido - 5 - Manutencao preventiva no motor
+3 - Concluido - 2 - Manutencao preventiva no motor
+3 - Concluido - 3 - Montar kit educacional
+3 - Concluido - 4 - Substituir componentes defeituosos
+3 - Concluido - 1 - Otimizar fluxo de montagem
+3 - Concluido - 2 - Otimizar fluxo de montagem
+3 - Concluido - 4 - Revisar sistema de controle
+3 - Concluido - 5 - Otimizar fluxo de montagem
+3 - Concluido - 1 - Treinar equipe em nova tecnologia
+3 - Concluido - 3 - Revisar sistema de controle
+3 - Concluido - 2 - Otimizar fluxo de montagem
+3 - Concluido - 5 - Pintura de pecas metalicas
+3 - Concluido - 1 - Manutencao preventiva no motor
+3 - Concluido - 4 - Substituir componentes defeituosos
+3 - Concluido - 2 - Pintura de pecas metalicas
+3 - Concluido - 3 - Revisar sistema de controle
+3 - Concluido - 4 - Manutencao preventiva no motor
+3 - Concluido - 5 - Substituir componentes defeituosos
+3 - Concluido - 1 - Substituir componentes defeituosos
+3 - Concluido - 2 - Reparar esteira transportadora
+3 - Concluido - 3 - Pintura de pecas metalicas
+3 - Concluido - 5 - Otimizar fluxo de montagem
+3 - Concluido - 4 - Pintura de pecas metalicas
+3 - Concluido - 1 - Substituir componentes defeituosos
+3 - Concluido - 3 - Revisar sistema de controle
+3 - Concluido - 2 - Montar kit educacional
+3 - Concluido - 4 - Montar kit educacional
+3 - Concluido - 1 - Manutencao preventiva no motor
+3 - Concluido - 5 - Pintura de pecas metalicas
+3 - Concluido - 3 - Verificar estoque de materia-prima
+3 - Concluido - 2 - Otimizar fluxo de montagem
+3 - Concluido - 4 - Substituir componentes defeituosos
+3 - Concluido - 5 - Otimizar fluxo de montagem
+3 - Concluido - 2 - Verificar estoque de materia-prima
+3 - Concluido - 1 - Substituir componentes defeituosos
+3 - Concluido - 3 - Atualizar software da linha de producao
+3 - Concluido - 2 - Pintura de pecas metalicas
+3 - Concluido - 4 - Montar kit educacional
+3 - Concluido - 5 - Treinar equipe em nova tecnologia
+3 - Concluido - 3 - Pintura de pecas metalicas
+3 - Concluido - 1 - Otimizar fluxo de montagem
+3 - Concluido - 4 - Atualizar software da linha de producao
+3 - Concluido - 1 - Manutencao preventiva no motor
+3 - Concluido - 2 - Treinar equipe em nova tecnologia
+3 - Concluido - 5 - Manutencao preventiva no motor
+3 - Concluido - 3 - Verificar estoque de materia-prima
+3 - Concluido - 2 - Manutencao preventiva no motor
+3 - Concluido - 4 - Revisar sistema de controle
+3 - Concluido - 1 - Pintura de pecas metalicas
+3 - Concluido - 3 - Substituir componentes defeituosos
+3 - Concluido - 5 - Verificar estoque de materia-prima
+3 - Concluido - 4 - Atualizar software da linha de producao
+3 - Concluido - 2 - Atualizar software da linha de producao
+3 - Concluido - 1 - Treinar equipe em nova tecnologia
+3 - Concluido - 3 - Reparar esteira transportadora
+3 - Concluido - 4 - Reparar esteira transportadora
+3 - Concluido - 5 - Verificar estoque de materia-prima
+3 - Concluido - 2 - Verificar estoque de materia-prima
+3 - Concluido - 1 - Atualizar software da linha de producao
+3 - Concluido - 4 - Revisar sistema de controle
+3 - Concluido - 3 - Revisar sistema de controle
+3 - Concluido - 2 - Montar kit educacional
+3 - Concluido - 5 - Verificar estoque de materia-prima
+3 - Concluido - 1 - Verificar estoque de materia-prima
+3 - Concluido - 4 - Substituir componentes defeituosos
+3 - Concluido - 2 - Treinar equipe em nova tecnologia
+3 - Concluido - 3 - Reparar esteira transportadora
+3 - Concluido - 5 - Treinar equipe em nova tecnologia
+3 - Concluido - 4 - Revisar sistema de controle
+3 - Concluido - 1 - Manutencao preventiva no motor
+3 - Concluido - 3 - Reparar esteira transportadora
+3 - Concluido - 2 - Otimizar fluxo de montagem
+3 - Concluido - 4 - Montar kit educacional
+3 - Concluido - 5 - Montar kit educacional
+3 - Concluido - 1 - Pintura de pecas metalicas
+3 - Concluido - 3 - Reparar esteira transportadora
+3 - Concluido - 2 - Reparar esteira transportadora
+3 - Concluido - 5 - Substituir componentes defeituosos
+3 - Concluido - 4 - Revisar sistema de controle
+3 - Concluido - 3 - Montar kit educacional
+3 - Concluido - 1 - Otimizar fluxo de montagem
+3 - Concluido - 4 - Otimizar fluxo de montagem
+3 - Concluido - 5 - Verificar estoque de materia-prima
+3 - Concluido - 2 - Revisar sistema de controle
+3 - Concluido - 3 - Treinar equipe em nova tecnologia
+3 - Concluido - 1 - Revisar sistema de controle
+3 - Concluido - 4 - Otimizar fluxo de montagem
+3 - Concluido - 3 - Otimizar fluxo de montagem
+3 - Concluido - 5 - Pintura de pecas metalicas
+3 - Concluido - 1 - Pintura de pecas metalicas
+3 - Concluido - 2 - Treinar equipe em nova tecnologia
+3 - Concluido - 4 - Atualizar software da linha de producao
+3 - Concluido - 5 - Atualizar software da linha de producao
+3 - Concluido - 1 - Treinar equipe em nova tecnologia
+3 - Concluido - 2 - Montar kit educacional
+3 - Concluido - 3 - Substituir componentes defeituosos
+3 - Concluido - 2 - Verificar estoque de materia-prima
+3 - Concluido - 1 - Verificar estoque de materia-prima
+3 - Concluido - 3 - Pintura de pecas metalicas
+3 - Concluido - 5 - Atualizar software da linha de producao
+3 - Concluido - 4 - Revisar sistema de controle
+3 - Concluido - 1 - Treinar equipe em nova tecnologia
+3 - Concluido - 3 - Montar kit educacional
+3 - Concluido - 2 - Reparar esteira transportadora
+3 - Concluido - 5 - Atualizar software da linha de producao
+3 - Concluido - 2 - Treinar equipe em nova tecnologia
+3 - Concluido - 3 - Verificar estoque de materia-prima
+3 - Concluido - 4 - Otimizar fluxo de montagem
+3 - Concluido - 5 - Verificar estoque de materia-prima
+3 - Concluido - 1 - Substituir componentes defeituosos
+3 - Concluido - 2 - Reparar esteira transportadora
+3 - Concluido - 3 - Montar kit educacional
+3 - Concluido - 1 - Montar kit educacional
+3 - Concluido - 4 - Pintura de pecas metalicas
+3 - Concluido - 5 - Manutencao preventiva no motor
+3 - Concluido - 2 - Otimizar fluxo de montagem
+3 - Concluido - 3 - Atualizar software da linha de producao
+3 - Concluido - 4 - Verificar estoque de materia-prima
+3 - Concluido - 1 - Reparar esteira transportadora
+3 - Concluido - 2 - Substituir componentes defeituosos
+3 - Concluido - 3 - Manutencao preventiva no motor
+3 - Concluido - 5 - Substituir componentes defeituosos
+3 - Concluido - 4 - Pintura de pecas metalicas
+3 - Concluido - 2 - Verificar estoque de materia-prima
+3 - Concluido - 3 - Atualizar software da linha de producao
+3 - Concluido - 1 - Montar kit educacional
+3 - Concluido - 5 - Montar kit educacional
+3 - Concluido - 3 - Reparar esteira transportadora
+3 - Concluido - 4 - Manutencao preventiva no motor
+3 - Concluido - 2 - Pintura de pecas metalicas
+3 - Concluido - 1 - Otimizar fluxo de montagem
+3 - Concluido - 2 - Treinar equipe em nova tecnologia
+3 - Concluido - 3 - Reparar esteira transportadora
+3 - Concluido - 5 - Substituir componentes defeituosos
+3 - Concluido - 1 - Substituir componentes defeituosos
+3 - Concluido - 4 - Pintura de pecas metalicas
+3 - Concluido - 3 - Verificar estoque de materia-prima
+3 - Concluido - 5 - Pintura de pecas metalicas
+3 - Concluido - 2 - Otimizar fluxo de montagem
+3 - Concluido - 4 - Substituir componentes defeituosos
+3 - Concluido - 1 - Pintura de pecas metalicas
+3 - Concluido - 5 - Manutencao preventiva no motor
+3 - Concluido - 3 - Treinar equipe em nova tecnologia
+3 - Concluido - 4 - Montar kit educacional
+3 - Concluido - 2 - Montar kit educacional
+3 - Concluido - 4 - Reparar esteira transportadora
+3 - Concluido - 1 - Montar kit educacional
+3 - Concluido - 3 - Pintura de pecas metalicas
+3 - Concluido - 5 - Pintura de pecas metalicas
+3 - Concluido - 2 - Reparar esteira transportadora
+3 - Concluido - 4 - Atualizar software da linha de producao
+3 - Concluido - 1 - Pintura de pecas metalicas
+3 - Concluido - 2 - Montar kit educacional
+3 - Concluido - 5 - Substituir componentes defeituosos
+3 - Concluido - 3 - Pintura de pecas metalicas
+3 - Concluido - 1 - Verificar estoque de materia-prima
+3 - Concluido - 4 - Manutencao preventiva no motor
+3 - Concluido - 5 - Verificar estoque de materia-prima
+3 - Concluido - 2 - Manutencao preventiva no motor
+3 - Concluido - 1 - Montar kit educacional
+3 - Concluido - 3 - Otimizar fluxo de montagem
+3 - Concluido - 2 - Otimizar fluxo de montagem
+3 - Concluido - 4 - Manutencao preventiva no motor
+3 - Concluido - 5 - Verificar estoque de materia-prima
+3 - Concluido - 3 - Atualizar software da linha de producao
+3 - Concluido - 1 - Montar kit educacional
+3 - Concluido - 2 - Substituir componentes defeituosos
+3 - Concluido - 4 - Atualizar software da linha de producao
+3 - Concluido - 5 - Atualizar software da linha de producao
+3 - Concluido - 4 - Substituir componentes defeituosos
+3 - Concluido - 1 - Reparar esteira transportadora
+3 - Concluido - 3 - Verificar estoque de materia-prima
+3 - Concluido - 2 - Revisar sistema de controle
+3 - Concluido - 5 - Montar kit educacional
+3 - Concluido - 1 - Manutencao preventiva no motor
+3 - Concluido - 3 - Treinar equipe em nova tecnologia
+3 - Concluido - 2 - Verificar estoque de materia-prima
+3 - Concluido - 4 - Manutencao preventiva no motor
+3 - Concluido - 3 - Otimizar fluxo de montagem
+3 - Concluido - 5 - Montar kit educacional
+3 - Concluido - 1 - Montar kit educacional
+3 - Concluido - 4 - Otimizar fluxo de montagem
+3 - Concluido - 2 - Manutencao preventiva no motor
+3 - Concluido - 5 - Pintura de pecas metalicas
+3 - Concluido - 3 - Substituir componentes defeituosos
+3 - Concluido - 4 - Manutencao preventiva no motor
+3 - Concluido - 1 - Reparar esteira transportadora
+3 - Concluido - 2 - Otimizar fluxo de montagem
+3 - Concluido - 3 - Montar kit educacional
+3 - Concluido - 4 - Substituir componentes defeituosos
+3 - Concluido - 5 - Treinar equipe em nova tecnologia
+3 - Concluido - 1 - Treinar equipe em nova tecnologia
+3 - Concluido - 4 - Atualizar software da linha de producao
+3 - Concluido - 2 - Treinar equipe em nova tecnologia
+3 - Concluido - 5 - Montar kit educacional
+3 - Concluido - 1 - Pintura de pecas metalicas
+3 - Concluido - 3 - Treinar equipe em nova tecnologia
+3 - Concluido - 4 - Atualizar software da linha de producao
+3 - Concluido - 5 - Pintura de pecas metalicas
+3 - Concluido - 2 - Reparar esteira transportadora
+3 - Concluido - 3 - Revisar sistema de controle
+3 - Concluido - 1 - Atualizar software da linha de producao
+3 - Concluido - 4 - Verificar estoque de materia-prima
+3 - Concluido - 2 - Otimizar fluxo de montagem
+3 - Concluido - 5 - Reparar esteira transportadora
+3 - Concluido - 3 - Substituir componentes defeituosos
+3 - Concluido - 4 - Montar kit educacional
+3 - Concluido - 1 - Treinar equipe em nova tecnologia
+3 - Concluido - 2 - Treinar equipe em nova tecnologia
+3 - Concluido - 5 - Montar kit educacional
+3 - Concluido - 1 - Pintura de pecas metalicas
+3 - Concluido - 3 - Atualizar software da linha de producao
+3 - Concluido - 4 - Pintura de pecas metalicas
+3 - Concluido - 5 - Atualizar software da linha de producao
+3 - Concluido - 2 - Pintura de pecas metalicas
+3 - Concluido - 3 - Montar kit educacional
+3 - Concluido - 1 - Verificar estoque de materia-prima
+3 - Concluido - 4 - Reparar esteira transportadora
+3 - Concluido - 3 - Montar kit educacional
+3 - Concluido - 5 - Atualizar software da linha de producao
+3 - Concluido - 2 - Verificar estoque de materia-prima
+3 - Concluido - 1 - Verificar estoque de materia-prima
+3 - Concluido - 4 - Reparar esteira transportadora
+3 - Concluido - 5 - Reparar esteira transportadora
+3 - Concluido - 3 - Pintura de pecas metalicas
+3 - Concluido - 1 - Atualizar software da linha de producao
+3 - Concluido - 4 - Otimizar fluxo de montagem
+3 - Concluido - 5 - Montar kit educacional
+3 - Concluido - 2 - Pintura de pecas metalicas
+3 - Concluido - 3 - Pintura de pecas metalicas
+3 - Concluido - 5 - Revisar sistema de controle
+3 - Concluido - 1 - Montar kit educacional
+3 - Concluido - 2 - Substituir componentes defeituosos
+3 - Concluido - 4 - Substituir componentes defeituosos
+3 - Concluido - 5 - Revisar sistema de controle
+3 - Concluido - 2 - Otimizar fluxo de montagem
+3 - Concluido - 3 - Atualizar software da linha de producao
+3 - Concluido - 1 - Treinar equipe em nova tecnologia
+3 - Concluido - 4 - Otimizar fluxo de montagem
+3 - Concluido - 5 - Montar kit educacional
+3 - Concluido - 3 - Reparar esteira transportadora
+3 - Concluido - 1 - Treinar equipe em nova tecnologia
+3 - Concluido - 2 - Substituir componentes defeituosos
+3 - Concluido - 3 - Verificar estoque de materia-prima
+3 - Concluido - 4 - Pintura de pecas metalicas
+3 - Concluido - 2 - Revisar sistema de controle
+3 - Concluido - 5 - Otimizar fluxo de montagem
+3 - Concluido - 1 - Montar kit educacional
+3 - Concluido - 4 - Manutencao preventiva no motor
+3 - Concluido - 3 - Otimizar fluxo de montagem
+3 - Concluido - 5 - Manutencao preventiva no motor
+2 - Concluido - 4 - Montar kit educacional
+3 - Concluido - 2 - Verificar estoque de materia-prima
+2 - Concluido - 3 - Manutencao preventiva no motor
+3 - Concluido - 1 - Atualizar software da linha de producao
+2 - Concluido - 5 - Reparar esteira transportadora
+2 - Concluido - 2 - Reparar esteira transportadora
+2 - Concluido - 3 - Reparar esteira transportadora
+2 - Concluido - 4 - Montar kit educacional
+2 - Concluido - 5 - Verificar estoque de materia-prima
+2 - Concluido - 1 - Treinar equipe em nova tecnologia
+2 - Concluido - 2 - Verificar estoque de materia-prima
+2 - Concluido - 3 - Montar kit educacional
+2 - Concluido - 4 - Substituir componentes defeituosos
+2 - Concluido - 5 - Otimizar fluxo de montagem
+2 - Concluido - 1 - Revisar sistema de controle
+2 - Concluido - 2 - Substituir componentes defeituosos
+2 - Concluido - 4 - Substituir componentes defeituosos
+2 - Concluido - 5 - Revisar sistema de controle
+2 - Concluido - 3 - Revisar sistema de controle
+2 - Concluido - 5 - Revisar sistema de controle
+2 - Concluido - 1 - Atualizar software da linha de producao
+2 - Concluido - 2 - Manutencao preventiva no motor
+2 - Concluido - 4 - Atualizar software da linha de producao
+2 - Concluido - 3 - Substituir componentes defeituosos
+2 - Concluido - 5 - Reparar esteira transportadora
+2 - Concluido - 3 - Revisar sistema de controle
+2 - Concluido - 2 - Revisar sistema de controle
+2 - Concluido - 5 - Substituir componentes defeituosos
+2 - Concluido - 1 - Montar kit educacional
+2 - Concluido - 4 - Otimizar fluxo de montagem
+2 - Concluido - 1 - Montar kit educacional
+2 - Concluido - 5 - Substituir componentes defeituosos
+2 - Concluido - 3 - Manutencao preventiva no motor
+2 - Concluido - 2 - Treinar equipe em nova tecnologia
+2 - Concluido - 4 - Verificar estoque de materia-prima
+2 - Concluido - 3 - Manutencao preventiva no motor
+2 - Concluido - 5 - Verificar estoque de materia-prima
+2 - Concluido - 1 - Atualizar software da linha de producao
+2 - Concluido - 2 - Atualizar software da linha de producao
+2 - Concluido - 4 - Pintura de pecas metalicas
+2 - Concluido - 5 - Revisar sistema de controle
+2 - Concluido - 3 - Pintura de pecas metalicas
+2 - Concluido - 2 - Verificar estoque de materia-prima
+2 - Concluido - 1 - Pintura de pecas metalicas
+2 - Concluido - 4 - Substituir componentes defeituosos
+2 - Concluido - 5 - Pintura de pecas metalicas
+2 - Concluido - 3 - Pintura de pecas metalicas
+2 - Concluido - 1 - Atualizar software da linha de producao
+2 - Concluido - 4 - Verificar estoque de materia-prima
+2 - Concluido - 2 - Revisar sistema de controle
+2 - Concluido - 5 - Otimizar fluxo de montagem
+2 - Concluido - 4 - Treinar equipe em nova tecnologia
+2 - Concluido - 1 - Verificar estoque de materia-prima
+2 - Concluido - 3 - Treinar equipe em nova tecnologia
+2 - Concluido - 4 - Verificar estoque de materia-prima
+2 - Concluido - 2 - Manutencao preventiva no motor
+2 - Concluido - 1 - Substituir componentes defeituosos
+2 - Concluido - 5 - Pintura de pecas metalicas
+2 - Concluido - 4 - Otimizar fluxo de montagem
+2 - Concluido - 2 - Verificar estoque de materia-prima
+2 - Concluido - 3 - Reparar esteira transportadora
+2 - Concluido - 1 - Manutencao preventiva no motor
+2 - Concluido - 2 - Atualizar software da linha de producao
+2 - Concluido - 4 - Otimizar fluxo de montagem
+2 - Concluido - 5 - Substituir componentes defeituosos
+2 - Concluido - 2 - Manutencao preventiva no motor
+2 - Concluido - 3 - Otimizar fluxo de montagem
+2 - Concluido - 5 - Revisar sistema de controle
+2 - Concluido - 4 - Substituir componentes defeituosos
+2 - Concluido - 1 - Otimizar fluxo de montagem
+2 - Concluido - 3 - Substituir componentes defeituosos
+2 - Concluido - 2 - Pintura de pecas metalicas
+2 - Concluido - 1 - Atualizar software da linha de producao
+2 - Concluido - 5 - Atualizar software da linha de producao
+2 - Concluido - 4 - Treinar equipe em nova tecnologia
+2 - Concluido - 3 - Verificar estoque de materia-prima
+2 - Concluido - 1 - Reparar esteira transportadora
+2 - Concluido - 5 - Montar kit educacional
+2 - Concluido - 2 - Reparar esteira transportadora
+2 - Concluido - 3 - Atualizar software da linha de producao
+2 - Concluido - 4 - Treinar equipe em nova tecnologia
+2 - Concluido - 2 - Atualizar software da linha de producao
+2 - Concluido - 3 - Substituir componentes defeituosos
+2 - Concluido - 5 - Substituir componentes defeituosos
+2 - Concluido - 4 - Pintura de pecas metalicas
+2 - Concluido - 1 - Atualizar software da linha de producao
+2 - Concluido - 4 - Reparar esteira transportadora
+2 - Concluido - 2 - Revisar sistema de controle
+2 - Concluido - 3 - Pintura de pecas metalicas
+2 - Concluido - 5 - Pintura de pecas metalicas
+2 - Concluido - 1 - Otimizar fluxo de montagem
+2 - Concluido - 2 - Manutencao preventiva no motor
+2 - Concluido - 3 - Reparar esteira transportadora
+2 - Concluido - 5 - Otimizar fluxo de montagem
+2 - Concluido - 4 - Atualizar software da linha de producao
+2 - Concluido - 1 - Atualizar software da linha de producao
+2 - Concluido - 3 - Manutencao preventiva no motor
+2 - Concluido - 5 - Pintura de pecas metalicas
+2 - Concluido - 2 - Pintura de pecas metalicas
+2 - Concluido - 4 - Verificar estoque de materia-prima
+2 - Concluido - 1 - Revisar sistema de controle
+2 - Concluido - 3 - Verificar estoque de materia-prima
+2 - Concluido - 5 - Montar kit educacional
+2 - Concluido - 2 - Reparar esteira transportadora
+2 - Concluido - 4 - Verificar estoque de materia-prima
+2 - Concluido - 1 - Pintura de pecas metalicas
+2 - Concluido - 2 - Montar kit educacional
+2 - Concluido - 5 - Montar kit educacional
+2 - Concluido - 3 - Revisar sistema de controle
+2 - Concluido - 1 - Revisar sistema de controle
+2 - Concluido - 4 - Treinar equipe em nova tecnologia
+2 - Concluido - 5 - Otimizar fluxo de montagem
+2 - Concluido - 4 - Manutencao preventiva no motor
+2 - Concluido - 2 - Verificar estoque de materia-prima
+2 - Concluido - 3 - Revisar sistema de controle
+2 - Concluido - 1 - Pintura de pecas metalicas
+2 - Concluido - 5 - Montar kit educacional
+2 - Concluido - 3 - Substituir componentes defeituosos
+2 - Concluido - 4 - Reparar esteira transportadora
+2 - Concluido - 1 - Otimizar fluxo de montagem
+2 - Concluido - 2 - Reparar esteira transportadora
+2 - Concluido - 3 - Reparar esteira transportadora
+2 - Concluido - 4 - Otimizar fluxo de montagem
+2 - Concluido - 2 - Pintura de pecas metalicas
+2 - Concluido - 5 - Atualizar software da linha de producao
+2 - Concluido - 2 - Montar kit educacional
+2 - Concluido - 1 - Atualizar software da linha de producao
+2 - Concluido - 4 - Montar kit educacional
+2 - Concluido - 3 - Pintura de pecas metalicas
+2 - Concluido - 5 - Otimizar fluxo de montagem
+2 - Concluido - 2 - Verificar estoque de materia-prima
+2 - Concluido - 1 - Atualizar software da linha de producao
+2 - Concluido - 4 - Reparar esteira transportadora
+2 - Concluido - 3 - Verificar estoque de materia-prima
+2 - Concluido - 4 - Revisar sistema de controle
+2 - Concluido - 5 - Verificar estoque de materia-prima
+2 - Concluido - 3 - Otimizar fluxo de montagem
+2 - Concluido - 2 - Substituir componentes defeituosos
+2 - Concluido - 1 - Reparar esteira transportadora
+2 - Concluido - 4 - Revisar sistema de controle
+2 - Concluido - 2 - Substituir componentes defeituosos
+2 - Concluido - 3 - Verificar estoque de materia-prima
+2 - Concluido - 5 - Verificar estoque de materia-prima
+2 - Concluido - 1 - Reparar esteira transportadora
+2 - Concluido - 4 - Pintura de pecas metalicas
+2 - Concluido - 3 - Pintura de pecas metalicas
+2 - Concluido - 5 - Treinar equipe em nova tecnologia
+2 - Concluido - 2 - Reparar esteira transportadora
+2 - Concluido - 1 - Treinar equipe em nova tecnologia
+2 - Concluido - 4 - Otimizar fluxo de montagem
+2 - Concluido - 3 - Reparar esteira transportadora
+2 - Concluido - 5 - Reparar esteira transportadora
+2 - Concluido - 3 - Reparar esteira transportadora
+2 - Concluido - 4 - Otimizar fluxo de montagem
+2 - Concluido - 2 - Atualizar software da linha de producao
+2 - Concluido - 1 - Montar kit educacional
+2 - Concluido - 5 - Reparar esteira transportadora
+2 - Concluido - 4 - Treinar equipe em nova tecnologia
+2 - Concluido - 1 - Atualizar software da linha de producao
+2 - Concluido - 3 - Otimizar fluxo de montagem
+2 - Concluido - 2 - Treinar equipe em nova tecnologia
+2 - Concluido - 1 - Revisar sistema de controle
+2 - Concluido - 4 - Montar kit educacional
+2 - Concluido - 5 - Revisar sistema de controle
+2 - Concluido - 3 - Atualizar software da linha de producao
+2 - Concluido - 2 - Pintura de pecas metalicas
+2 - Concluido - 5 - Otimizar fluxo de montagem
+2 - Concluido - 1 - Treinar equipe em nova tecnologia
+2 - Concluido - 4 - Otimizar fluxo de montagem
+2 - Concluido - 5 - Montar kit educacional
+2 - Concluido - 3 - Atualizar software da linha de producao
+2 - Concluido - 2 - Substituir componentes defeituosos
+2 - Concluido - 1 - Manutencao preventiva no motor
+2 - Concluido - 4 - Verificar estoque de materia-prima
+2 - Concluido - 3 - Otimizar fluxo de montagem
+2 - Concluido - 5 - Revisar sistema de controle
+2 - Concluido - 4 - Reparar esteira transportadora
+2 - Concluido - 2 - Substituir componentes defeituosos
+2 - Concluido - 1 - Treinar equipe em nova tecnologia
+2 - Concluido - 5 - Atualizar software da linha de producao
+2 - Concluido - 4 - Substituir componentes defeituosos
+2 - Concluido - 2 - Manutencao preventiva no motor
+2 - Concluido - 5 - Manutencao preventiva no motor
+2 - Concluido - 4 - Treinar equipe em nova tecnologia
+2 - Concluido - 3 - Reparar esteira transportadora
+2 - Concluido - 5 - Treinar equipe em nova tecnologia
+2 - Concluido - 1 - Reparar esteira transportadora
+2 - Concluido - 3 - Atualizar software da linha de producao
+2 - Concluido - 2 - Pintura de pecas metalicas
+2 - Concluido - 4 - Pintura de pecas metalicas
+2 - Concluido - 1 - Pintura de pecas metalicas
+2 - Concluido - 3 - Substituir componentes defeituosos
+2 - Concluido - 4 - Substituir componentes defeituosos
+2 - Concluido - 2 - Atualizar software da linha de producao
+2 - Concluido - 5 - Manutencao preventiva no motor
+2 - Concluido - 1 - Revisar sistema de controle
+2 - Concluido - 3 - Treinar equipe em nova tecnologia
+2 - Concluido - 4 - Otimizar fluxo de montagem
+2 - Concluido - 2 - Verificar estoque de materia-prima
+2 - Concluido - 1 - Treinar equipe em nova tecnologia
+2 - Concluido - 5 - Montar kit educacional
+2 - Concluido - 3 - Atualizar software da linha de producao
+2 - Concluido - 2 - Verificar estoque de materia-prima
+2 - Concluido - 1 - Montar kit educacional
+2 - Concluido - 4 - Pintura de pecas metalicas
+2 - Concluido - 5 - Pintura de pecas metalicas
+2 - Concluido - 3 - Montar kit educacional
+2 - Concluido - 2 - Manutencao preventiva no motor
+2 - Concluido - 4 - Pintura de pecas metalicas
+2 - Concluido - 2 - Treinar equipe em nova tecnologia
+2 - Concluido - 1 - Pintura de pecas metalicas
+2 - Concluido - 4 - Reparar esteira transportadora
+2 - Concluido - 5 - Otimizar fluxo de montagem
+2 - Concluido - 3 - Treinar equipe em nova tecnologia
+2 - Concluido - 1 - Manutencao preventiva no motor
+2 - Concluido - 2 - Montar kit educacional
+2 - Concluido - 5 - Treinar equipe em nova tecnologia
+2 - Concluido - 4 - Reparar esteira transportadora
+2 - Concluido - 3 - Manutencao preventiva no motor
+2 - Concluido - 2 - Reparar esteira transportadora
+2 - Concluido - 1 - Treinar equipe em nova tecnologia
+2 - Concluido - 4 - Atualizar software da linha de producao
+2 - Concluido - 3 - Montar kit educacional
+2 - Concluido - 5 - Treinar equipe em nova tecnologia
+2 - Concluido - 2 - Revisar sistema de controle
+2 - Concluido - 1 - Otimizar fluxo de montagem
+2 - Concluido - 4 - Manutencao preventiva no motor
+2 - Concluido - 2 - Substituir componentes defeituosos
+2 - Concluido - 3 - Substituir componentes defeituosos
+2 - Concluido - 4 - Verificar estoque de materia-prima
+2 - Concluido - 5 - Manutencao preventiva no motor
+2 - Concluido - 1 - Atualizar software da linha de producao
+2 - Concluido - 4 - Pintura de pecas metalicas
+2 - Concluido - 2 - Montar kit educacional
+2 - Concluido - 5 - Otimizar fluxo de montagem
+2 - Concluido - 2 - Revisar sistema de controle
+2 - Concluido - 1 - Revisar sistema de controle
+2 - Concluido - 3 - Pintura de pecas metalicas
+2 - Concluido - 4 - Pintura de pecas metalicas
+2 - Concluido - 5 - Treinar equipe em nova tecnologia
+2 - Concluido - 1 - Manutencao preventiva no motor
+2 - Concluido - 3 - Reparar esteira transportadora
+2 - Concluido - 2 - Manutencao preventiva no motor
+2 - Concluido - 5 - Pintura de pecas metalicas
+2 - Concluido - 4 - Reparar esteira transportadora
+2 - Concluido - 1 - Pintura de pecas metalicas
+2 - Concluido - 3 - Revisar sistema de controle
+2 - Concluido - 4 - Revisar sistema de controle
+2 - Concluido - 2 - Treinar equipe em nova tecnologia
+2 - Concluido - 5 - Manutencao preventiva no motor
+2 - Concluido - 1 - Substituir componentes defeituosos
+2 - Concluido - 3 - Reparar esteira transportadora
+2 - Concluido - 2 - Atualizar software da linha de producao
+2 - Concluido - 5 - Pintura de pecas metalicas
+2 - Concluido - 1 - Treinar equipe em nova tecnologia
+2 - Concluido - 3 - Revisar sistema de controle
+2 - Concluido - 4 - Reparar esteira transportadora
+2 - Concluido - 3 - Reparar esteira transportadora
+2 - Concluido - 4 - Treinar equipe em nova tecnologia
+2 - Concluido - 1 - Otimizar fluxo de montagem
+2 - Concluido - 5 - Montar kit educacional
+2 - Concluido - 3 - Revisar sistema de controle
+2 - Concluido - 2 - Substituir componentes defeituosos
+2 - Concluido - 5 - Reparar esteira transportadora
+2 - Concluido - 1 - Pintura de pecas metalicas
+2 - Concluido - 4 - Reparar esteira transportadora
+2 - Concluido - 1 - Verificar estoque de materia-prima
+2 - Concluido - 3 - Revisar sistema de controle
+2 - Concluido - 2 - Atualizar software da linha de producao
+2 - Concluido - 1 - Treinar equipe em nova tecnologia
+2 - Concluido - 5 - Pintura de pecas metalicas
+2 - Concluido - 3 - Pintura de pecas metalicas
+2 - Concluido - 4 - Verificar estoque de materia-prima
+2 - Concluido - 2 - Otimizar fluxo de montagem
+2 - Concluido - 1 - Atualizar software da linha de producao
+2 - Concluido - 5 - Atualizar software da linha de producao
+2 - Concluido - 2 - Treinar equipe em nova tecnologia
+2 - Concluido - 4 - Verificar estoque de materia-prima
+2 - Concluido - 3 - Montar kit educacional
+2 - Concluido - 2 - Substituir componentes defeituosos
+2 - Concluido - 4 - Manutencao preventiva no motor
+2 - Concluido - 5 - Montar kit educacional
+2 - Concluido - 1 - Montar kit educacional
+2 - Concluido - 3 - Substituir componentes defeituosos
+2 - Concluido - 2 - Treinar equipe em nova tecnologia
+2 - Concluido - 4 - Revisar sistema de controle
+2 - Concluido - 5 - Pintura de pecas metalicas
+2 - Concluido - 1 - Verificar estoque de materia-prima
+2 - Concluido - 3 - Pintura de pecas metalicas
+2 - Concluido - 2 - Montar kit educacional
+2 - Concluido - 4 - Montar kit educacional
+2 - Concluido - 5 - Otimizar fluxo de montagem
+2 - Concluido - 1 - Substituir componentes defeituosos
+2 - Concluido - 3 - Pintura de pecas metalicas
+2 - Concluido - 2 - Verificar estoque de materia-prima
+2 - Concluido - 1 - Treinar equipe em nova tecnologia
+2 - Concluido - 4 - Montar kit educacional
+2 - Concluido - 5 - Montar kit educacional
+2 - Concluido - 3 - Manutencao preventiva no motor
+2 - Concluido - 1 - Reparar esteira transportadora
+2 - Concluido - 4 - Otimizar fluxo de montagem
+2 - Concluido - 5 - Atualizar software da linha de producao
+2 - Concluido - 2 - Pintura de pecas metalicas
+2 - Concluido - 3 - Montar kit educacional
+2 - Concluido - 1 - Verificar estoque de materia-prima
+2 - Concluido - 2 - Reparar esteira transportadora
+2 - Concluido - 4 - Revisar sistema de controle
+2 - Concluido - 1 - Reparar esteira transportadora
+2 - Concluido - 5 - Otimizar fluxo de montagem
+2 - Concluido - 3 - Substituir componentes defeituosos
+2 - Concluido - 4 - Montar kit educacional
+2 - Concluido - 2 - Treinar equipe em nova tecnologia
+2 - Concluido - 5 - Treinar equipe em nova tecnologia
+2 - Concluido - 1 - Verificar estoque de materia-prima
+2 - Concluido - 4 - Treinar equipe em nova tecnologia
+2 - Concluido - 3 - Montar kit educacional
+2 - Concluido - 2 - Montar kit educacional
+2 - Concluido - 2 - Manutencao preventiva no motor
+2 - Concluido - 1 - Revisar sistema de controle
+2 - Concluido - 4 - Montar kit educacional
+2 - Concluido - 5 - Pintura de pecas metalicas
+2 - Concluido - 3 - Pintura de pecas metalicas
+2 - Concluido - 5 - Reparar esteira transportadora
+2 - Concluido - 2 - Atualizar software da linha de producao
+2 - Concluido - 4 - Treinar equipe em nova tecnologia
+2 - Concluido - 1 - Reparar esteira transportadora
+2 - Concluido - 3 - Revisar sistema de controle
+2 - Concluido - 5 - Atualizar software da linha de producao
+2 - Concluido - 2 - Revisar sistema de controle
+2 - Concluido - 4 - Otimizar fluxo de montagem
+2 - Concluido - 1 - Manutencao preventiva no motor
+2 - Concluido - 2 - Revisar sistema de controle
+2 - Concluido - 3 - Substituir componentes defeituosos
+2 - Concluido - 4 - Revisar sistema de controle
+2 - Concluido - 5 - Substituir componentes defeituosos
+2 - Concluido - 1 - Atualizar software da linha de producao
+2 - Concluido - 2 - Pintura de pecas metalicas
+2 - Concluido - 3 - Montar kit educacional
+2 - Concluido - 5 - Revisar sistema de controle
+2 - Concluido - 4 - Atualizar software da linha de producao
+2 - Concluido - 1 - Atualizar software da linha de producao
+1 - Concluido - 3 - Substituir componentes defeituosos
+1 - Concluido - 2 - Reparar esteira transportadora
+1 - Concluido - 4 - Verificar estoque de materia-prima
+1 - Concluido - 5 - Treinar equipe em nova tecnologia
+1 - Concluido - 1 - Otimizar fluxo de montagem
+1 - Concluido - 4 - Pintura de pecas metalicas
+1 - Concluido - 1 - Reparar esteira transportadora
+1 - Concluido - 2 - Manutencao preventiva no motor
+1 - Concluido - 3 - Pintura de pecas metalicas
+1 - Concluido - 5 - Montar kit educacional
+1 - Concluido - 1 - Reparar esteira transportadora
+1 - Concluido - 4 - Verificar estoque de materia-prima
+1 - Concluido - 3 - Revisar sistema de controle
+1 - Concluido - 5 - Revisar sistema de controle
+1 - Concluido - 2 - Reparar esteira transportadora
+1 - Concluido - 1 - Otimizar fluxo de montagem
+1 - Concluido - 2 - Pintura de pecas metalicas
+1 - Concluido - 3 - Substituir componentes defeituosos
+1 - Concluido - 5 - Montar kit educacional
+1 - Concluido - 4 - Substituir componentes defeituosos
+1 - Concluido - 1 - Treinar equipe em nova tecnologia
+1 - Concluido - 4 - Atualizar software da linha de producao
+1 - Concluido - 2 - Treinar equipe em nova tecnologia
+1 - Concluido - 3 - Reparar esteira transportadora
+1 - Concluido - 5 - Otimizar fluxo de montagem
+1 - Concluido - 1 - Treinar equipe em nova tecnologia
+1 - Concluido - 4 - Revisar sistema de controle
+1 - Concluido - 3 - Manutencao preventiva no motor
+1 - Concluido - 2 - Revisar sistema de controle
+1 - Concluido - 5 - Pintura de pecas metalicas
+1 - Concluido - 3 - Atualizar software da linha de producao
+1 - Concluido - 1 - Verificar estoque de materia-prima
+1 - Concluido - 4 - Atualizar software da linha de producao
+1 - Concluido - 2 - Manutencao preventiva no motor
+1 - Concluido - 5 - Revisar sistema de controle
+1 - Concluido - 1 - Montar kit educacional
+1 - Concluido - 4 - Verificar estoque de materia-prima
+1 - Concluido - 3 - Substituir componentes defeituosos
+1 - Concluido - 2 - Montar kit educacional
+1 - Concluido - 5 - Manutencao preventiva no motor
+1 - Concluido - 1 - Otimizar fluxo de montagem
+1 - Concluido - 4 - Atualizar software da linha de producao
+1 - Concluido - 2 - Substituir componentes defeituosos
+1 - Concluido - 5 - Verificar estoque de materia-prima
+1 - Concluido - 1 - Otimizar fluxo de montagem
+1 - Concluido - 3 - Atualizar software da linha de producao
+1 - Concluido - 2 - Manutencao preventiva no motor
+1 - Concluido - 4 - Pintura de pecas metalicas
+1 - Concluido - 3 - Substituir componentes defeituosos
+1 - Concluido - 5 - Reparar esteira transportadora
+1 - Concluido - 1 - Treinar equipe em nova tecnologia
+1 - Concluido - 2 - Otimizar fluxo de montagem
+1 - Concluido - 4 - Pintura de pecas metalicas
+1 - Concluido - 5 - Pintura de pecas metalicas
+1 - Concluido - 3 - Atualizar software da linha de producao
+1 - Concluido - 1 - Reparar esteira transportadora
+1 - Concluido - 2 - Substituir componentes defeituosos
+1 - Concluido - 4 - Revisar sistema de controle
+1 - Concluido - 5 - Verificar estoque de materia-prima
+1 - Concluido - 3 - Revisar sistema de controle
+1 - Concluido - 1 - Substituir componentes defeituosos
+1 - Concluido - 2 - Pintura de pecas metalicas
+1 - Concluido - 5 - Manutencao preventiva no motor
+1 - Concluido - 3 - Revisar sistema de controle
+1 - Concluido - 4 - Reparar esteira transportadora
+1 - Concluido - 2 - Reparar esteira transportadora
+1 - Concluido - 1 - Verificar estoque de materia-prima
+1 - Concluido - 3 - Reparar esteira transportadora
+1 - Concluido - 5 - Verificar estoque de materia-prima
+1 - Concluido - 2 - Treinar equipe em nova tecnologia
+1 - Concluido - 4 - Otimizar fluxo de montagem
+1 - Concluido - 1 - Atualizar software da linha de producao
+1 - Concluido - 3 - Revisar sistema de controle
+1 - Concluido - 1 - Treinar equipe em nova tecnologia
+1 - Concluido - 2 - Revisar sistema de controle
+1 - Concluido - 4 - Atualizar software da linha de producao
+1 - Concluido - 5 - Montar kit educacional
+1 - Concluido - 3 - Substituir componentes defeituosos
+1 - Concluido - 1 - Treinar equipe em nova tecnologia
+1 - Concluido - 5 - Atualizar software da linha de producao
+1 - Concluido - 2 - Verificar estoque de materia-prima
+1 - Concluido - 4 - Verificar estoque de materia-prima
+1 - Concluido - 1 - Atualizar software da linha de producao
+1 - Concluido - 3 - Otimizar fluxo de montagem
+1 - Concluido - 5 - Treinar equipe em nova tecnologia
+1 - Concluido - 2 - Treinar equipe em nova tecnologia
+1 - Concluido - 3 - Manutencao preventiva no motor
+1 - Concluido - 4 - Revisar sistema de controle
+1 - Concluido - 5 - Substituir componentes defeituosos
+1 - Concluido - 1 - Substituir componentes defeituosos
+1 - Concluido - 2 - Montar kit educacional
+1 - Concluido - 4 - Pintura de pecas metalicas
+1 - Concluido - 3 - Revisar sistema de controle
+1 - Concluido - 5 - Pintura de pecas metalicas
+1 - Concluido - 1 - Otimizar fluxo de montagem
+1 - Concluido - 4 - Montar kit educacional
+1 - Concluido - 3 - Verificar estoque de materia-prima
+1 - Concluido - 2 - Verificar estoque de materia-prima
+1 - Concluido - 5 - Manutencao preventiva no motor
+1 - Concluido - 3 - Revisar sistema de controle
+1 - Concluido - 1 - Atualizar software da linha de producao
+1 - Concluido - 4 - Verificar estoque de materia-prima
+1 - Concluido - 2 - Treinar equipe em nova tecnologia
+1 - Concluido - 5 - Montar kit educacional
+1 - Concluido - 3 - Manutencao preventiva no motor
+1 - Concluido - 5 - Reparar esteira transportadora
+1 - Concluido - 4 - Otimizar fluxo de montagem
+1 - Concluido - 1 - Pintura de pecas metalicas
+1 - Concluido - 2 - Pintura de pecas metalicas
+1 - Concluido - 3 - Treinar equipe em nova tecnologia
+1 - Concluido - 4 - Treinar equipe em nova tecnologia
+1 - Concluido - 5 - Montar kit educacional
+1 - Concluido - 1 - Otimizar fluxo de montagem
+1 - Concluido - 3 - Reparar esteira transportadora
+1 - Concluido - 2 - Otimizar fluxo de montagem
+1 - Concluido - 1 - Pintura de pecas metalicas
+1 - Concluido - 3 - Otimizar fluxo de montagem
+1 - Concluido - 4 - Otimizar fluxo de montagem
+1 - Concluido - 5 - Atualizar software da linha de producao
+1 - Concluido - 3 - Revisar sistema de controle
+1 - Concluido - 5 - Treinar equipe em nova tecnologia
+1 - Concluido - 2 - Substituir componentes defeituosos
+1 - Concluido - 1 - Montar kit educacional
+1 - Concluido - 3 - Treinar equipe em nova tecnologia
+1 - Concluido - 4 - Manutencao preventiva no motor
+1 - Concluido - 2 - Treinar equipe em nova tecnologia
+1 - Concluido - 3 - Otimizar fluxo de montagem
+1 - Concluido - 5 - Reparar esteira transportadora
+1 - Concluido - 1 - Montar kit educacional
+1 - Concluido - 4 - Verificar estoque de materia-prima
+1 - Concluido - 2 - Substituir componentes defeituosos
+1 - Concluido - 3 - Otimizar fluxo de montagem
+1 - Concluido - 5 - Montar kit educacional
+1 - Concluido - 1 - Revisar sistema de controle
+1 - Concluido - 4 - Treinar equipe em nova tecnologia
+1 - Concluido - 2 - Treinar equipe em nova tecnologia
+1 - Concluido - 3 - Pintura de pecas metalicas
+1 - Concluido - 5 - Verificar estoque de materia-prima
+1 - Concluido - 3 - Otimizar fluxo de montagem
+1 - Concluido - 4 - Revisar sistema de controle
+1 - Concluido - 1 - Treinar equipe em nova tecnologia
+1 - Concluido - 5 - Otimizar fluxo de montagem
+1 - Concluido - 3 - Pintura de pecas metalicas
+1 - Concluido - 2 - Reparar esteira transportadora
+1 - Concluido - 1 - Treinar equipe em nova tecnologia
+1 - Concluido - 4 - Revisar sistema de controle
+1 - Concluido - 1 - Montar kit educacional
+1 - Concluido - 3 - Otimizar fluxo de montagem
+1 - Concluido - 5 - Substituir componentes defeituosos
+1 - Concluido - 2 - Pintura de pecas metalicas
+1 - Concluido - 4 - Revisar sistema de controle
+1 - Concluido - 3 - Substituir componentes defeituosos
+1 - Concluido - 5 - Atualizar software da linha de producao
+1 - Concluido - 1 - Atualizar software da linha de producao
+1 - Concluido - 4 - Revisar sistema de controle
+1 - Concluido - 2 - Otimizar fluxo de montagem
+1 - Concluido - 3 - Verificar estoque de materia-prima
+1 - Concluido - 1 - Montar kit educacional
+1 - Concluido - 5 - Reparar esteira transportadora
+1 - Concluido - 4 - Atualizar software da linha de producao
+1 - Concluido - 2 - Otimizar fluxo de montagem
+1 - Concluido - 1 - Verificar estoque de materia-prima
+1 - Concluido - 3 - Montar kit educacional
+1 - Concluido - 5 - Substituir componentes defeituosos
+1 - Concluido - 2 - Atualizar software da linha de producao
+1 - Concluido - 4 - Revisar sistema de controle
+1 - Concluido - 1 - Montar kit educacional
+1 - Concluido - 3 - Manutencao preventiva no motor
+1 - Concluido - 2 - Verificar estoque de materia-prima
+1 - Concluido - 1 - Substituir componentes defeituosos
+1 - Concluido - 3 - Substituir componentes defeituosos
+1 - Concluido - 5 - Pintura de pecas metalicas
+1 - Concluido - 4 - Pintura de pecas metalicas
+1 - Concluido - 2 - Substituir componentes defeituosos
+1 - Concluido - 3 - Otimizar fluxo de montagem
+1 - Concluido - 5 - Substituir componentes defeituosos
+1 - Concluido - 1 - Substituir componentes defeituosos
+1 - Concluido - 4 - Verificar estoque de materia-prima
+1 - Concluido - 3 - Substituir componentes defeituosos
+1 - Concluido - 2 - Substituir componentes defeituosos
+1 - Concluido - 1 - Manutencao preventiva no motor
+1 - Concluido - 3 - Reparar esteira transportadora
+1 - Concluido - 5 - Verificar estoque de materia-prima
+1 - Concluido - 4 - Reparar esteira transportadora
+1 - Concluido - 1 - Treinar equipe em nova tecnologia
+1 - Concluido - 2 - Otimizar fluxo de montagem
+1 - Concluido - 5 - Treinar equipe em nova tecnologia
+1 - Concluido - 4 - Verificar estoque de materia-prima
+1 - Concluido - 1 - Revisar sistema de controle
+1 - Concluido - 2 - Montar kit educacional
+1 - Concluido - 3 - Substituir componentes defeituosos
+1 - Concluido - 5 - Reparar esteira transportadora
+1 - Concluido - 3 - Substituir componentes defeituosos
+1 - Concluido - 1 - Pintura de pecas metalicas
+1 - Concluido - 2 - Manutencao preventiva no motor
+1 - Concluido - 4 - Verificar estoque de materia-prima
+1 - Concluido - 1 - Montar kit educacional
+1 - Concluido - 5 - Otimizar fluxo de montagem
+1 - Concluido - 2 - Substituir componentes defeituosos
+1 - Concluido - 3 - Verificar estoque de materia-prima
+1 - Concluido - 1 - Montar kit educacional
+1 - Concluido - 4 - Otimizar fluxo de montagem
+1 - Concluido - 3 - Montar kit educacional
+1 - Concluido - 4 - Atualizar software da linha de producao
+1 - Concluido - 5 - Pintura de pecas metalicas
+1 - Concluido - 2 - Verificar estoque de materia-prima
+1 - Concluido - 1 - Verificar estoque de materia-prima
+1 - Concluido - 4 - Verificar estoque de materia-prima
+1 - Concluido - 2 - Manutencao preventiva no motor
+1 - Concluido - 3 - Manutencao preventiva no motor
+1 - Concluido - 1 - Manutencao preventiva no motor
+1 - Concluido - 4 - Atualizar software da linha de producao
+1 - Concluido - 5 - Montar kit educacional
+1 - Concluido - 1 - Manutencao preventiva no motor
+1 - Concluido - 2 - Treinar equipe em nova tecnologia
+1 - Concluido - 3 - Manutencao preventiva no motor
+1 - Concluido - 4 - Verificar estoque de materia-prima
+1 - Concluido - 5 - Montar kit educacional
+1 - Concluido - 1 - Montar kit educacional
+1 - Concluido - 3 - Revisar sistema de controle
+1 - Concluido - 2 - Treinar equipe em nova tecnologia
+1 - Concluido - 4 - Substituir componentes defeituosos
+1 - Concluido - 3 - Manutencao preventiva no motor
+1 - Concluido - 2 - Substituir componentes defeituosos
+1 - Concluido - 1 - Manutencao preventiva no motor
+1 - Concluido - 5 - Treinar equipe em nova tecnologia
+1 - Concluido - 4 - Montar kit educacional
+1 - Concluido - 5 - Verificar estoque de materia-prima
+1 - Concluido - 3 - Substituir componentes defeituosos
+1 - Concluido - 1 - Otimizar fluxo de montagem
+1 - Concluido - 5 - Reparar esteira transportadora
+1 - Concluido - 2 - Substituir componentes defeituosos
+1 - Concluido - 4 - Verificar estoque de materia-prima
+1 - Concluido - 3 - Treinar equipe em nova tecnologia
+1 - Concluido - 5 - Otimizar fluxo de montagem
+1 - Concluido - 2 - Treinar equipe em nova tecnologia
+1 - Concluido - 1 - Atualizar software da linha de producao
+1 - Concluido - 3 - Reparar esteira transportadora
+1 - Concluido - 2 - Verificar estoque de materia-prima
+1 - Concluido - 5 - Atualizar software da linha de producao
+1 - Concluido - 4 - Reparar esteira transportadora
+1 - Concluido - 1 - Revisar sistema de controle
+1 - Concluido - 3 - Treinar equipe em nova tecnologia
+1 - Concluido - 4 - Montar kit educacional
+1 - Concluido - 2 - Atualizar software da linha de producao
+1 - Concluido - 5 - Atualizar software da linha de producao
+1 - Concluido - 1 - Atualizar software da linha de producao
+1 - Concluido - 3 - Manutencao preventiva no motor
+1 - Concluido - 4 - Revisar sistema de controle
+1 - Concluido - 1 - Pintura de pecas metalicas
+1 - Concluido - 3 - Pintura de pecas metalicas
+1 - Concluido - 2 - Reparar esteira transportadora
+1 - Concluido - 5 - Verificar estoque de materia-prima
+1 - Concluido - 1 - Verificar estoque de materia-prima
+1 - Concluido - 4 - Pintura de pecas metalicas
+1 - Concluido - 2 - Pintura de pecas metalicas
+1 - Concluido - 5 - Manutencao preventiva no motor
+1 - Concluido - 3 - Revisar sistema de controle
+1 - Concluido - 1 - Pintura de pecas metalicas
+1 - Concluido - 4 - Atualizar software da linha de producao
+1 - Concluido - 2 - Substituir componentes defeituosos
+1 - Concluido - 4 - Manutencao preventiva no motor
+1 - Concluido - 5 - Reparar esteira transportadora
+1 - Concluido - 3 - Verificar estoque de materia-prima
+1 - Concluido - 1 - Pintura de pecas metalicas
+1 - Concluido - 4 - Pintura de pecas metalicas
+1 - Concluido - 2 - Pintura de pecas metalicas
+1 - Concluido - 1 - Reparar esteira transportadora
+1 - Concluido - 2 - Otimizar fluxo de montagem
+1 - Concluido - 4 - Montar kit educacional
+1 - Concluido - 5 - Substituir componentes defeituosos
+1 - Concluido - 3 - Reparar esteira transportadora
+1 - Concluido - 1 - Otimizar fluxo de montagem
+1 - Concluido - 2 - Pintura de pecas metalicas
+1 - Concluido - 4 - Revisar sistema de controle
+1 - Concluido - 5 - Manutencao preventiva no motor
+1 - Concluido - 3 - Otimizar fluxo de montagem
+1 - Concluido - 5 - Revisar sistema de controle
+1 - Concluido - 1 - Revisar sistema de controle
+1 - Concluido - 2 - Otimizar fluxo de montagem
+1 - Concluido - 4 - Montar kit educacional
+1 - Concluido - 5 - Treinar equipe em nova tecnologia
+1 - Concluido - 1 - Revisar sistema de controle
+1 - Concluido - 3 - Montar kit educacional
+1 - Concluido - 5 - Reparar esteira transportadora
+1 - Concluido - 2 - Atualizar software da linha de producao
+1 - Concluido - 4 - Reparar esteira transportadora
+1 - Concluido - 3 - Reparar esteira transportadora
+1 - Concluido - 1 - Verificar estoque de materia-prima
+1 - Concluido - 2 - Revisar sistema de controle
+1 - Concluido - 4 - Manutencao preventiva no motor
+1 - Concluido - 5 - Revisar sistema de controle
+1 - Concluido - 2 - Reparar esteira transportadora
+1 - Concluido - 3 - Revisar sistema de controle
+1 - Concluido - 1 - Reparar esteira transportadora
+1 - Concluido - 4 - Manutencao preventiva no motor
+1 - Concluido - 5 - Substituir componentes defeituosos
+1 - Concluido - 3 - Montar kit educacional
+1 - Concluido - 2 - Manutencao preventiva no motor
+1 - Concluido - 1 - Atualizar software da linha de producao
+1 - Concluido - 4 - Revisar sistema de controle
+1 - Concluido - 3 - Montar kit educacional
+1 - Concluido - 5 - Montar kit educacional
+1 - Concluido - 2 - Pintura de pecas metalicas
+1 - Concluido - 3 - Substituir componentes defeituosos
+1 - Concluido - 1 - Montar kit educacional
+1 - Concluido - 4 - Montar kit educacional
+1 - Concluido - 5 - Reparar esteira transportadora
+1 - Concluido - 2 - Otimizar fluxo de montagem
+1 - Concluido - 3 - Treinar equipe em nova tecnologia
+1 - Concluido - 5 - Otimizar fluxo de montagem
+1 - Concluido - 1 - Substituir componentes defeituosos
+1 - Concluido - 4 - Substituir componentes defeituosos
+1 - Concluido - 5 - Pintura de pecas metalicas
+1 - Concluido - 2 - Treinar equipe em nova tecnologia
+1 - Concluido - 1 - Revisar sistema de controle
+1 - Concluido - 3 - Verificar estoque de materia-prima
+1 - Concluido - 4 - Otimizar fluxo de montagem
+1 - Concluido - 1 - Revisar sistema de controle
+1 - Concluido - 3 - Manutencao preventiva no motor
+1 - Concluido - 5 - Montar kit educacional
+1 - Concluido - 4 - Reparar esteira transportadora
+1 - Concluido - 2 - Reparar esteira transportadora
