@@ -73,13 +73,17 @@ void excluirFim(TpDesc &d, char nome[20]){
 }
 
 void exibir(TpDesc d){
-	for(;d.inicio!=NULL;d.inicio=d.inicio->prox)
+	while(d.inicio!=NULL){
 		printf("%s\n",d.inicio->nome);
+		d.inicio=d.inicio->prox;
+	}
 }
 
 void exibirInvertido(TpDesc d){
-	for(;d.fim!=NULL;d.fim=d.fim->ant)
+	while(d.fim!=NULL){
 		printf("%s\n",d.fim->nome);
+		d.fim=d.fim->ant;
+	}
 }
 
 void liberarLista(TpDesc &d){
