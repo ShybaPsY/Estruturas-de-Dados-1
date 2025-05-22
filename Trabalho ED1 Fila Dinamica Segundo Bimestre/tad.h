@@ -1,4 +1,4 @@
-#include<time.h>
+.#include<time.h>
 #include<string.h>
 struct TpData{
 	int dia;
@@ -26,7 +26,6 @@ struct TpDescTarefa{
 };
 
 struct TpCaixaDev{
-	
 	char nome[50];
 	TpDescTarefa descTarefas;
 	TpCaixaDev *ant, *prox;
@@ -95,10 +94,56 @@ void inserirDev(TpDescDev &dev, char nome[50]){
 	
 	if(dev.inicio==NULL){
 		dev.inicio = dev.fim = criarCaixaDev(nome);
-	}else{
-		
 	}
+	else{
+		dev.fim->prox = criarCaixaDev(nome);
+	}
+}
+
+void inserirTarefa(TpDescDev &dev, char nome[50], TpCaixaTarefa *caixa){
 	
+	if(strcmp(dev.inicio->nome, nome) == 0){
+		dev.inicio->descTarefas.fim->prox = caixa;
+		dev.inicio->descTarefas.fim = caixa;
+	}
+	else{
+		if(strcmp(dev.fim->nome, nome) == 0){
+			dev.fim->descTarefas.fim->prox = caixa;
+			dev.fim->descTarefas.fim = caixa;
+		}
+		else{
+			TpCaixaDev *atual = dev.inicio;
+			while(atual->prox != dev.fim && strcmp(atual->prox->nome, nome)!=0){
+				atual = atual->prox;
+			}
+			if(strcmp(atual->prox->nome, nome)==0){
+				atual->prox->descTarefas.fim->prox = caixa;
+				atual->prox->descTarefas.fim = caixa;
+			}
+		}
+	}
+}
+
+void excluirDev(TpDescDev &dev, char nome[50]){
+	
+	
+	if(strcmp(dev.inicio->nome,nome) == 0){
+		if(dev.qtde == 1){
+			TpCaixaTarefa caixa = dev.inicio->descTarefas.inicio->prox;
+			TpCaixaTarefa ant= dev.inicio->descTarefas.inicio;
+			while(caixa!=NULL){
+				delete(ant);
+				ant = caixa;
+				caixa = caixa->prox;
+			}
+			delete(ant);
+			delete(dev.inicio);
+			dev.inicio = NULL;
+		}
+		else{
+			
+		}
+	}
 }
 
 
