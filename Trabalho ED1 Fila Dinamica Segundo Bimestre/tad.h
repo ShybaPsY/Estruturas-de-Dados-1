@@ -1,4 +1,4 @@
-.#include<time.h>
+#include<time.h>
 #include<string.h>
 struct TpData{
 	int dia;
@@ -132,8 +132,6 @@ void inserirTarefa(TpDescDev &dev, char nome[50], TpCaixaTarefa *caixa){
 }
 
 void excluirDev(TpDescDev &dev, char nome[50]){
-	
-	
 	if(strcmp(dev.inicio->nome,nome) == 0){
 		if(dev.qtde == 1){
 			TpCaixaTarefa caixa = dev.inicio->descTarefas.inicio->prox;
@@ -151,7 +149,7 @@ void excluirDev(TpDescDev &dev, char nome[50]){
 			TpCaixaTarefa *caixa = dev.inicio->descTarefas.inicio;
 			TpCaixaDev *atual;
 			while(caixa!=NULL){
-				for(atual = dev.inicio->prox; atual!=NULL; atual=atual->prox){
+				for(atual = dev.inicio->prox;caixa!=NULL && atual!=NULL; atual=atual->prox){
 					atual->descTarefas.fim->prox=caixa;
 					atual->descTarefas.fim = caixa;
 					caixa = caixa->prox;
@@ -174,7 +172,7 @@ void excluirDev(TpDescDev &dev, char nome[50]){
 			TpCaixaDev *excluir = atual->prox;
 			TpCaixaTarefa *caixa = excluir->descTarefas.inicio;
 			while(caixa!=NULL){
-				for(atual = dev.inicio;atual!=NULL;atual=atual->prox){
+				for(atual = dev.inicio;caixa!=NULL && atual!=NULL;atual=atual->prox){
 					if(atual == excluir){
 						atual=atual->prox;
 					}
@@ -196,7 +194,7 @@ void excluirDev(TpDescDev &dev, char nome[50]){
 	}
 }
 
-
+void exibir
 
 
 
