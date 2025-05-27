@@ -38,6 +38,7 @@ struct TpDescDev{
 	TpCaixaDev *inicio, *fim;
 };
 
+TpCaixaTarefa *retirarTarefa(TpDescDev &dev, char nome[50]);
 
 void inicializarDev(TpDescDev &descDev){
 	descDev.qtde = 0;
@@ -69,14 +70,14 @@ TpCaixaTarefa *criarCaixaTarefa(int prioridade, int tempo, char desc[50], char r
 	tarefa->data.mes = data.mes;
 	tarefa->data.ano = data.ano;
 	tarefa->inicio = clock();
-	tarefa->fim = NULL;
+	tarefa->fim = 0;
 	tarefa->prox = NULL;
 	
 	return tarefa;
 }
 
 bool devVazio(TpDescDev dev){
-	return dev.inicio == NULL;
+	return dev.inicio == NULL && dev.fim == NULL;
 }
 
 bool tarefaVazia(TpDescDev dev, char nome[50]){
@@ -119,8 +120,8 @@ void inserirTarefa(TpDescDev &dev, char nome[50], TpCaixaTarefa *caixa){
 		}
 		else{
 			if(caixa->prioridade >= dev.inicio->descTarefas.inicio->prioridade){
-				caixa->prox = dev.inicio->descTarefas.inicio->prox;
-				dev.inicio->descTarefas.inicio->prox = caixa;
+				caixa->prox = dev.inicio->descTarefas.inicio;
+				dev.inicio->descTarefas.inicio = caixa;
 				dev.inicio->descTarefas.qtde++;
 			}
 			else{
@@ -149,8 +150,8 @@ void inserirTarefa(TpDescDev &dev, char nome[50], TpCaixaTarefa *caixa){
 			}
 			else{
 				if(caixa->prioridade >= dev.fim->descTarefas.inicio->prioridade){
-					caixa->prox = dev.fim->descTarefas.inicio->prox;
-					dev.fim->descTarefas.inicio->prox = caixa;
+					caixa->prox = dev.fim->descTarefas.inicio;
+					dev.fim->descTarefas.inicio = caixa;
 					dev.fim->descTarefas.qtde++;
 				}
 				else{
@@ -175,33 +176,35 @@ void inserirTarefa(TpDescDev &dev, char nome[50], TpCaixaTarefa *caixa){
 		else{
 			TpCaixaDev *atual;
 			atual = dev.inicio->prox;
-			while(strcmp(atual->nome, nome) != 0){
+			while(atual!=NULL && strcmp(atual->nome, nome) != 0){
 				atual = atual->prox;
 			}
-			if(atual->descTarefas.inicio == NULL){
-				atual->descTarefas.inicio = atual->descTarefas.fim = caixa;
-			}
-			else{
-				if(caixa->prioridade >= atual->descTarefas.inicio->prioridade){
-					caixa->prox = atual->descTarefas.inicio->prox;
-					atual->descTarefas.inicio->prox = caixa;
-					atual->descTarefas.qtde++;
+			if(atual!=NULL){
+				if(atual->descTarefas.inicio == NULL){
+					atual->descTarefas.inicio = atual->descTarefas.fim = caixa;
 				}
 				else{
-					if(caixa->prioridade <= atual->descTarefas.fim->prioridade){
-						atual->descTarefas.fim->prox = caixa;
-						atual->descTarefas.fim = caixa;
+					if(caixa->prioridade >= atual->descTarefas.inicio->prioridade){
+						caixa->prox = atual->descTarefas.inicio;
+						atual->descTarefas.inicio = caixa;
 						atual->descTarefas.qtde++;
 					}
 					else{
-						TpCaixaTarefa *aux;
-						aux = atual->descTarefas.inicio;
-						while(caixa->prioridade <= aux->prox->prioridade){
-							atual=atual->prox;
+						if(caixa->prioridade <= atual->descTarefas.fim->prioridade){
+							atual->descTarefas.fim->prox = caixa;
+							atual->descTarefas.fim = caixa;
+							atual->descTarefas.qtde++;
 						}
-						caixa->prox = aux->prox;
-						aux->prox = caixa;
-						atual->descTarefas.qtde++;
+						else{
+							TpCaixaTarefa *aux;
+							aux = atual->descTarefas.inicio;
+							while(aux->prox->prioridade >= caixa->prioridade){
+								atual=atual->prox;
+							}
+							caixa->prox = aux->prox;
+							aux->prox = caixa;
+							atual->descTarefas.qtde++;
+						}
 					}
 				}
 			}
@@ -211,17 +214,8 @@ void inserirTarefa(TpDescDev &dev, char nome[50], TpCaixaTarefa *caixa){
 
 void excluirDev(TpDescDev &dev, char nome[50]){
 	TpCaixaTarefa *aux;
-	if(dev.qtde == 1){
-		TpCaixaTarefa *aux;
-		aux = dev.inicio->descTarefas.inicio->prox;
-		while(aux!=NULL){
-			delete(dev.inicio->descTarefas.inicio);
-			dev.inicio->descTarefas.inicio = aux;
-			aux = aux->prox;
-		}
-		delete(dev.inicio->descTarefas.inicio);
-		delete(dev.inicio);
-		dev.qtde--;
+	if(dev.qtde <= 1){
+		printf("Nao e possivel excluir");
 	}
 	else{
 		if(strcmp(dev.inicio->nome,nome) == 0){
@@ -230,16 +224,15 @@ void excluirDev(TpDescDev &dev, char nome[50]){
 			while(dev.inicio->descTarefas.inicio !=NULL){
 				atual=dev.inicio->prox;
 				while(dev.inicio->descTarefas.inicio!=NULL && atual!=NULL){
-					inserirTarefa(dev, atual->nome, dev.inicio->descTarefas.inicio);
-					aux = dev.inicio->descTarefas.inicio;
+					aux = retirarTarefa(dev, dev.inicio->nome);
+					inserirTarefa(dev, atual->nome, aux);
 					atual = atual->prox;
-					dev.inicio->descTarefas.inicio = dev.inicio->descTarefas.inicio->prox;
-					aux->prox = NULL;
 				}
 			}
 			dev.inicio = dev.inicio->prox;
 			delete(dev.inicio->ant);
 			dev.inicio->ant = NULL;
+			dev.qtde--;
 		}
 		else{
 			if(strcmp(dev.fim->nome,nome) == 0){
@@ -247,21 +240,20 @@ void excluirDev(TpDescDev &dev, char nome[50]){
 				while(dev.fim->descTarefas.inicio !=NULL){
 					atual=dev.fim->ant;
 					while(dev.fim->descTarefas.inicio!=NULL && atual!=NULL){
-						inserirTarefa(dev, atual->nome, dev.fim->descTarefas.inicio);
-						aux = dev.fim->descTarefas.inicio;
+						aux = retirarTarefa(dev, dev.fim->nome);
+						inserirTarefa(dev, atual->nome, aux);
 						atual = atual->ant;
-						dev.fim->descTarefas.inicio = dev.fim->descTarefas.inicio->prox;
-						aux->prox = NULL;
 					}
 				}
 				dev.fim = dev.fim->ant;
 				delete(dev.fim->prox);
 				dev.fim->prox = NULL;
+				dev.qtde--;
 			}
 			else{
 				TpCaixaDev *excluido;
 				excluido = dev.inicio->prox;
-				while(strcmp(excluido->nome,nome) != 0){
+				while(excluido !=NULL && strcmp(excluido->nome,nome) != 0){
 					excluido=excluido->prox;
 				}
 				if(excluido != NULL){
@@ -270,17 +262,16 @@ void excluirDev(TpDescDev &dev, char nome[50]){
 						atual=dev.inicio;
 						while(dev.inicio->descTarefas.inicio!=NULL && atual!=NULL){
 							if(atual!=excluido){
-								inserirTarefa(dev, atual->nome, excluido->descTarefas.inicio);
-								aux = dev.fim->descTarefas.inicio;
-								excluido->descTarefas.inicio = excluido->descTarefas.inicio->prox;
-								aux->prox = NULL;
+								aux = retirarTarefa(dev, excluido->nome);
+								inserirTarefa(dev, atual->nome, aux);
+								atual = atual->prox;
 							}
-							atual = atual->ant;
 						}
 					}
 					excluido->ant->prox = excluido->prox;
 					excluido->prox->ant = excluido->ant;
 					delete(excluido);
+					dev.qtde--;
 				}
 			}
 		}
