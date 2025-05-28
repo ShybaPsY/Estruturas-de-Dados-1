@@ -8,7 +8,6 @@ struct TpData{
 };
 
 struct TpCaixaTarefa{
-	bool status;
 	int prioridade;
 	int tempo;
 	char desc[50];
@@ -21,7 +20,6 @@ struct TpCaixaTarefa{
 };
 
 struct TpDescTarefa{
-	
 	int qtde;
 	TpCaixaTarefa *concluidas;
 	TpCaixaTarefa *inicio,*fim;
@@ -50,6 +48,7 @@ TpCaixaDev *criarCaixaDev(char nome[50]){
 	TpCaixaDev *dev = new TpCaixaDev;
 	
 	strcpy(dev->nome, nome);
+	dev->descTarefas.qtde=0;
 	dev->descTarefas.inicio=NULL;
 	dev->descTarefas.fim=NULL;
 	dev->descTarefas.concluidas = NULL;
@@ -61,7 +60,6 @@ TpCaixaTarefa *criarCaixaTarefa(int prioridade, int tempo, char desc[50], char r
 	
 	TpCaixaTarefa *tarefa = new TpCaixaTarefa;
 	
-	tarefa->status = 0;
 	tarefa->prioridade = prioridade;
 	tarefa->tempo = tempo;
 	strcpy(tarefa->desc, desc);
@@ -199,7 +197,7 @@ void inserirTarefa(TpDescDev &dev, char nome[50], TpCaixaTarefa *caixa){
 							TpCaixaTarefa *aux;
 							aux = atual->descTarefas.inicio;
 							while(aux->prox->prioridade >= caixa->prioridade){
-								atual=atual->prox;
+								aux=aux->prox;
 							}
 							caixa->prox = aux->prox;
 							aux->prox = caixa;
@@ -286,12 +284,14 @@ TpCaixaTarefa *retirarTarefa(TpDescDev &dev, char nome[50]){
 		aux = dev.inicio->descTarefas.inicio;
 		dev.inicio->descTarefas.inicio = aux->prox;
 		aux->prox = NULL;
+		dev.inicio->descTarefas.qtde--;
 	}
 	else{
 		if(strcmp(dev.fim->nome,nome) == 0){
 			aux = dev.fim->descTarefas.inicio;
 			dev.fim->descTarefas.inicio = aux->prox;
 			aux->prox = NULL;
+			dev.fim->descTarefas.qtde--;
 		}
 		else{
 			TpCaixaDev *atual;
@@ -303,6 +303,7 @@ TpCaixaTarefa *retirarTarefa(TpDescDev &dev, char nome[50]){
 				aux = atual->descTarefas.inicio;
 				atual->descTarefas.inicio = aux->prox;
 				aux->prox=NULL;
+				atual->descTarefas.qtde--;
 			}
 		}
 	}
@@ -312,14 +313,14 @@ TpCaixaTarefa *retirarTarefa(TpDescDev &dev, char nome[50]){
 
 void exibirTarefas(TpCaixaTarefa *aux){
 	if(aux != NULL){
-		printf("Prioridade: %d Descricao: %s Responsavel: %s\n", aux->prioridade, aux->desc, aux->responsavel);
+		printf("Prioridade: %d Tempo: %d Descricao: %s Responsavel: %s data: %d-%d-%d\n", aux->prioridade, aux->tempo, aux->desc, aux->responsavel, aux->data.dia, aux->data.mes, aux->data.ano);
 		exibirTarefas(aux->prox);
 	}
 }
 
 void exibirDev(TpDescDev dev, char nome[50]){
 	
-	if(strcmp(dev.inicio->nome,nome) == 0){
+	if(strcmp(dev.inicio->nome,nome) == 0){  //Verifica se é o dev no incio
 		printf("\tDev %s\n",dev.inicio->nome);
 		exibirTarefas(dev.inicio->descTarefas.inicio);
 	}
@@ -342,6 +343,68 @@ void exibirDev(TpDescDev dev, char nome[50]){
 	}
 }
 
+void concluirTarefa(TpDescDev &d, char nome[50]){
+	TpCaixaTarefa *aux;
+	if(strcmp(d.inicio->nome, nome)==0){  //Verifica se é o dev do começo
+		if(!tarefaVazia(d, nome)){  //Verifica se tem de onde tirar
+			if(d.inicio->descTarefas.concluidas == NULL){
+				d.inicio->descTarefas.concluidas = retirarTarefa(d, nome);
+			}
+			else{
+				aux=retirarTarefa(d, nome);
+				aux->prox = d.inicio->descTarefas.concluidas;
+				d.inicio->descTarefas.concluidas = aux;
+			}
+			
+		}
+	}
+	else{
+		if(strcmp(d.fim->nome, nome) == 0){   //Verifica se é o dev do fim
+			if(!tarefaVazia(d, nome)){  //Verifica se tem de onde tirar
+				if(d.fim->descTarefas.concluidas == NULL){
+					d.fim->descTarefas.concluidas = retirarTarefa(d, nome);
+				}
+				else{
+					aux=retirarTarefa(d, nome);
+					aux->prox = d.fim->descTarefas.concluidas;
+					d.fim->descTarefas.concluidas = aux;
+				}
+			}
+		}
+		else{  //Se não for nenhum dos 2, verifica se vai ser um do meio
+			TpCaixaDev *atual;
+			atual = d.inicio;
+			while(atual!=NULL && strcmp(atual->nome,nome)!=0){
+				atual=atual->prox;
+			}
+			if(atual!=NULL){  //Verifica se achou o dev
+				if(!tarefaVazia(d, atual->nome)){  //Verifica se tem de onde tirar
+					if(atual->descTarefas.concluidas == NULL){
+						atual->descTarefas.concluidas = retirarTarefa(d, nome);
+					}
+					else{
+						aux=retirarTarefa(d, nome);
+						aux->prox = atual->descTarefas.concluidas;
+						atual->descTarefas.concluidas = aux;
+					}
+				}
+			}
+		}
+	}
+}
+
+bool devsSemTarefas(TpDescDev dev){
+	int cont=0;
+	TpCaixaDev *atual;
+	atual = dev.inicio;
+	while(atual!=NULL){
+		if(tarefaVazia(dev, atual->nome)){
+			cont++;
+		}
+		atual=atual->prox;
+	}
+	return dev.qtde == cont;
+}
 
 
 
